@@ -1,0 +1,16 @@
+// ABSTRACTS //
+@use './scss/abstracts/variables'; 
+@use './App.scss';
+
+// BASE // 
+
+@use './scss/base/base';
+@use './scss/base/resets';
+
+// COMPONENTS //
+
+@use './components/Navbar/navbar.scss';
+@use './components/Body/body.scss';
+@use './components/Loader/loader.scss';
+@use './components/Footer/footer.scss';
+@use './components/CardCategorias//cardCategorias.scss';

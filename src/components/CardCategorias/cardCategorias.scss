@@ -1,0 +1,61 @@
+.categoria {
+    padding: 9px;
+    background: var(--unnamed-color-f2f3f380) 0% 0% no-repeat padding-box;
+    border: 0.5px solid var(--unnamed-color-1e8250);
+    background: #f5f5f5d0 0% 0% no-repeat padding-box;
+    border: 0.5px solid #1E8250;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    box-shadow: 7px 2px 5px -5px rgba(0, 0, 0, 0.25);
+  }
+  .categoria #missing {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50px;
+    height: 40px !important;
+  }
+  .categoria img {
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid var(--unnamed-color-1e8250);
+    background: transparent url("img/Yogurt Premium PNG sin fondo.png") 0% 0% no-repeat padding-box;
+    border: 0.5px solid #1E8250;
+    border-radius: 5px;
+    background-color: #FFF;
+  }
+  .categoria #iconos {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+  .categoria button {
+    height: 25px;
+    width: 25px;
+    border: 0.5px solid #1E8250;
+    color: #1E8250;
+    border-radius: 50px;
+    margin-left: auto;
+  }
+  .categoria button i {
+    margin: 0 auto;
+  }
+  .categoria h3 {
+    font-family: "Yanone Kaffeesatz";
+    color: #1E8250;
+    font-size: 1.5em;
+    padding-left: 15px;
+  }
+  .categoria h4 {
+    color: #1E8250;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 20px;
+  }

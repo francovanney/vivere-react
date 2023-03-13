@@ -1,0 +1,49 @@
+html, body {
+    font-family: var(--Main-Font);
+}
+
+.page-section {
+    min-height: 50vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    //max-height: 50vh;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+Button {
+    color: var(--WhiteColor)  !important;
+    background-color: var(--FirstColor) !important;
+    border: none !important;
+    &:hover {
+        opacity: 0.8;
+        transition: opacity .3s ease-in-out;
+    }
+}
+
+#button-custom {
+    padding: .75em 1.5em;
+    border-radius: 15px;
+    width: 100%;
+}
+
+#button-cv {
+    padding: .75em 1.5em;
+    border-radius: 15px;
+}
+
+.custom-icon {
+    color: var(--FirstColor) !important;
+    &:hover {
+        color: var(--BlackColor) !important;
+        transition: all .2s !important;
+    }
+}
