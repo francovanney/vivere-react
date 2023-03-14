@@ -7,6 +7,7 @@ import Yogurts from "./components/Categorias/Yogurts";
 import Footer from "./components/Footer";
 import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
+import Producto from "./components/Producto";
 
 const App = () => {
 	const [loading, setLoading] = useState(false);
@@ -33,6 +34,10 @@ const App = () => {
 					<Route
 						path='/waffles'
 						element={<Waffles />}
+					/>
+					<Route
+						path='/producto/:id'
+						element={<Producto />}
 					/>
 				</Routes>
 			</>
