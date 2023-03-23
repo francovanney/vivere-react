@@ -1,5 +1,4 @@
 import { Nav } from "react-bootstrap";
-import logo from "../../assets/Logos/Fv/logo_FVDark.svg";
 import { useState, useEffect, useContext } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { MediaQueries } from "../Utils/mediaqueries";
@@ -85,7 +84,7 @@ const Navbar = () => {
 			className={scrolled ? "scrolled-down navbar" : "navbar"}
 			id={expandNavbar ? "open" : "close"}>
 			<div className='container-logo'>
-				<img src={logo} width={35} id='FVLogo' />
+				{/* <img src={logo} width={35} id='Logo' /> */}
 			</div>
 			<motion.div
 				className='progress-bar'
@@ -151,7 +150,7 @@ const Navbar = () => {
 								"skills-section"
 							);
 						}}>
-						{texts.navbarSkills}
+						s
 					</Nav.Link>
 					<Nav.Link
 						className={
