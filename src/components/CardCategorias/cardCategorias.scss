@@ -1,3 +1,12 @@
+h4 {
+  color: #1E8250;
+  padding-left: 10px !important;
+  font-size: 1.5em;
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 600 !important;
+}
+
+/* ---OLD STYLES--- */
 .categoria {
     padding: 9px;
     background: var(--unnamed-color-f2f3f380) 0% 0% no-repeat padding-box;
@@ -6,7 +15,7 @@
     border: 0.5px solid #1E8250;
     border-radius: 15px;
     width: 300px;
-    height: 50px;
+    height: 55px;
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
@@ -38,8 +47,9 @@
   .categoria button {
     height: 25px;
     width: 25px;
-    border: 0.5px solid #1E8250;
-    color: #1E8250;
+    border: 0.5px solid #1E8250 !important;
+    color: #1E8250 !important;
+    background-color: #f5f5f5d0 !important;
     border-radius: 50px;
     margin-left: auto;
   }
@@ -51,11 +61,4 @@
     color: #1E8250;
     font-size: 1.5em;
     padding-left: 15px;
-  }
-  .categoria h4 {
-    color: #1E8250;
-    padding-left: 10px;
-    font-size: 18px;
-    font-family: "Yanone Kaffeesatz";
-    font-size: 20px;
   }

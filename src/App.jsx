@@ -40,6 +40,7 @@ const App = () => {
 						element={<Producto />}
 					/>
 				</Routes>
+				<Footer/>
 			</>
 		</div>
 	);

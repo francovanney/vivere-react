@@ -10,9 +10,9 @@ const CardCategorias = ({ nombreCategoria, hrefCategoria }) => {
 						src='/img/yogurts.png'
 						alt=''
 					/>
-					<h3>{nombreCategoria}</h3>
+					<h4>{nombreCategoria}</h4>
 					<button>
-						<i className='fas fa-chevron-right'></i>
+						<i className='fas fa-chevron-right'>{'>'}</i>
 					</button>
 				</div>
 			</Link>
