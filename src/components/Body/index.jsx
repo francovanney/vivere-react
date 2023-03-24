@@ -41,7 +41,7 @@ const Body = () => {
 							</div>
 						</div>
 					</Container>
-					<h1 id='titulo-menu'>Menú</h1>
+					<h1 id='titulo-MainMenu'>Menú</h1>
 					{sectionArrays.map((sectionArray) => (
 						<div key={data.id}>
 							<CardCategorias

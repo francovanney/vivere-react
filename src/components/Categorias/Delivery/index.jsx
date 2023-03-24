@@ -18,11 +18,9 @@ const BatidosYLicuados = () => {
 
 	return (
 		<section className='page-section mt-5 mx-auto'>
+			<h1 id='titulo-menu'>Delivery</h1>
 			<Container className='d-flex flex-column align-items-center'>
-				<div>
-					<h1>Delivery</h1>
-					{deliveryCards}
-				</div>
+				<div>{deliveryCards}</div>
 			</Container>
 		</section>
 	);

@@ -18,11 +18,9 @@ const Yogurts = () => {
 
 	return (
 		<section className='page-section mt-5 mx-auto'>
+			<h1 id='titulo-menu'>Yogurts Helados</h1>
 			<Container className='d-flex flex-column align-items-center'>
-				<div>
-					<h1>Yogurts Helados</h1>
-					{yogurtCards}
-				</div>
+				<div>{yogurtCards}</div>
 			</Container>
 		</section>
 	);
