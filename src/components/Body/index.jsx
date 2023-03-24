@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 import data from "../../json/productos.json";
 import CardCategorias from "../CardCategorias";
+import LogoVivere from "/Logos/logo_main_J22.png";
 
 const Body = () => {
 	const sections = data.reduce((acc, item) => {
@@ -18,7 +19,29 @@ const Body = () => {
 		<>
 			<section className='page-section mt-5 mx-auto'>
 				<Container className='d-flex flex-column align-items-center'>
-					<h1>Menú</h1>
+					<Container className="mb-5">
+						<div id='main-header'>
+							<div id='ig-main'>
+								<a
+									href='https://www.instagram.com/viverebeneok/'
+									target='_blank'>
+									<i class='fab fa-instagram fa-3x'></i>
+								</a>
+							</div>
+							<div
+								id='circulo'
+								class='animate__animated animate__fadeIn animate__faster'>
+								<img
+									src={
+										LogoVivere
+									}
+									alt=''
+									id='logo-circulo'
+								/>
+							</div>
+						</div>
+					</Container>
+					<h1 id='titulo-menu'>Menú</h1>
 					{sectionArrays.map((sectionArray) => (
 						<div key={data.id}>
 							<CardCategorias

@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Router, Routes, Route } from "react-router-dom";
 import "./App.scss";
 import Body from "./components/Body";
+import BatidosYLicuados from "./components/Categorias/BatidosYLicuados";
+import Delivery from "./components/Categorias/Delivery";
 import Waffles from "./components/Categorias/Waffles";
 import Yogurts from "./components/Categorias/Yogurts";
 import Footer from "./components/Footer";
@@ -36,11 +38,19 @@ const App = () => {
 						element={<Waffles />}
 					/>
 					<Route
+						path='/batidos'
+						element={<BatidosYLicuados />}
+					/>
+					<Route
+						path='/delivery'
+						element={<Delivery />}
+					/>
+					<Route
 						path='/producto/:id'
 						element={<Producto />}
 					/>
 				</Routes>
-				<Footer/>
+				<Footer />
 			</>
 		</div>
 	);

@@ -2,6 +2,7 @@ import { Nav } from "react-bootstrap";
 import { useState, useEffect, useContext } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { MediaQueries } from "../Utils/mediaqueries";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	const [scrolled, setScrolled] = useState(false);
@@ -120,7 +121,7 @@ const Navbar = () => {
 								"header-section"
 							);
 						}}>
-						1
+						Inicio
 					</Nav.Link>
 					<Nav.Link
 						className={
@@ -185,76 +186,56 @@ const Navbar = () => {
 				</div>
 			) : (
 				<div className='links'>
-					<Nav.Link
+					<Link
+						to={"/"}
 						className={
 							active ===
 							"header-section"
 								? "active"
 								: ""
-						}
-						onClick={() => {
-							setSection(
-								"header-section"
-							);
-						}}>
-						1
-					</Nav.Link>
-					<Nav.Link
+						}>
+						Inicio
+					</Link>
+					<Link
+						to={"/yogurts"}
 						className={
 							active ===
 							"hola-section"
 								? "active"
 								: ""
-						}
-						onClick={() => {
-							setSection(
-								"hola-section"
-							);
-						}}>
-						2
-					</Nav.Link>
-					<Nav.Link
+						}>
+						Yogurts
+					</Link>
+					<Link
+						to={"/waffles"}
 						className={
 							active ===
 							"skills-section"
 								? "active"
 								: ""
-						}
-						onClick={() => {
-							setSection(
-								"skills-section"
-							);
-						}}>
-						3
-					</Nav.Link>
-					<Nav.Link
+						}>
+						Waffles
+					</Link>
+					<Link
+						to={"/batidos"}
 						className={
 							active ===
 							"experience-section"
 								? "active"
 								: ""
-						}
-						onClick={() => {
-							setSection(
-								"experience-section"
-							);
-						}}>
-						4
-					</Nav.Link>
-					<Nav.Link
+						}>
+						Batidos
+					</Link>
+					<Link
+						to={"/delivery"}
 						className={
 							active ===
 							"contact-section"
 								? "active"
 								: ""
-						}
-						onClick={() => {
-							setSection(
-								"contact-section"
-							);
-						}}>
-						5
-					</Nav.Link>
+						}>
+						Delivery
+					</Link>
 				</div>
 			)}
 		</nav>

@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 import CardProducto from "../../CardProductos";
 import data from "../../../json/productos.json";
 
-const Yogurts = () => {
-	const waffles = data.filter((item) => item.route === "waffles");
+const BatidosYLicuados = () => {
+	const batidos = data.filter((item) => item.route === "batidos");
 
-	const waffleCards = waffles.reduce((acc, item) => {
-		const waffleCard = (
+	const batidosCards = batidos.reduce((acc, item) => {
+		const batidoCard = (
 			<Link to={`/producto/${item.id}`} key={item.id}>
 				<CardProducto nombreProducto={item.nombre} />
 			</Link>
 		);
-		acc.push(waffleCard);
+		acc.push(batidoCard);
 		return acc;
 	}, []);
 
@@ -20,12 +20,12 @@ const Yogurts = () => {
 		<section className='page-section mt-5 mx-auto'>
 			<Container className='d-flex flex-column align-items-center'>
 				<div>
-					<h1>Waffles</h1>
-					{waffleCards}
+					<h1>Batidos Y Licuados</h1>
+					{batidosCards}
 				</div>
 			</Container>
 		</section>
 	);
 };
 
-export default Yogurts;
+export default BatidosYLicuados;
