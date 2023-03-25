@@ -4,6 +4,8 @@ import data from "../../json/productos.json";
 import CardCategorias from "../CardCategorias";
 import LogoVivere from "/Logos/logo_main_J22.png";
 
+
+
 const Body = () => {
 	useEffect(() => {
 		window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

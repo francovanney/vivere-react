@@ -1,0 +1,40 @@
+#titulo {
+    height: 70px;
+    background-color: #1c7e4d;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    top: 56px;
+    z-index: 10;
+    h1 {
+        color: white;
+        margin: 20px 0px 30px 15px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+}
+
+#iconos-ind {
+    display: flex;
+    place-self: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#direcciones {
+    color: white;
+    font-size: 11px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 55px;
+    text-align: end;
+    padding-top: 15px;
+}
+
+.titleSubNav {
+    align-self: center;
+}

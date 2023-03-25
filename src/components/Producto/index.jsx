@@ -1,6 +1,7 @@
 import { Container, Card } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import productos from "../../json/productos.json";
+import SubNav from "../SubNav";
 
 const Producto = () => {
 	const { id } = useParams();
@@ -8,6 +9,7 @@ const Producto = () => {
 
 	return (
 		<section className='page-section'>
+			<SubNav nombreCategoria={producto.seccion + ' - ' + producto.nombre} isProduct={true}/>
 			<Container className='d-flex align-items-center justify-content-center mt-5'>
 				<Card id='card' style={{ width: "18rem" }}>
 					<Card.Img
