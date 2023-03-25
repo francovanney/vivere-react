@@ -4,6 +4,12 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import { MediaQueries } from "../Utils/mediaqueries";
 import { Link } from "react-router-dom";
 
+// GO TO TOP //
+
+export const goToTop = () => {
+	window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+};
+
 const Navbar = () => {
 	const [scrolled, setScrolled] = useState(false);
 	const [expandNavbar, setExpandNavbar] = useState(undefined);
@@ -120,6 +126,7 @@ const Navbar = () => {
 							setSection(
 								"header-section"
 							);
+							goToTop();
 						}}>
 						Inicio
 					</Nav.Link>
@@ -135,6 +142,7 @@ const Navbar = () => {
 							setSection(
 								"hola-section"
 							);
+							goToTop();
 						}}>
 						2
 					</Nav.Link>
@@ -150,6 +158,7 @@ const Navbar = () => {
 							setSection(
 								"skills-section"
 							);
+							goToTop();
 						}}>
 						s
 					</Nav.Link>
@@ -165,6 +174,7 @@ const Navbar = () => {
 							setSection(
 								"experience-section"
 							);
+							goToTop();
 						}}>
 						3
 					</Nav.Link>
@@ -180,6 +190,7 @@ const Navbar = () => {
 							setSection(
 								"contact-section"
 							);
+							goToTop();
 						}}>
 						4
 					</Nav.Link>
@@ -193,7 +204,8 @@ const Navbar = () => {
 							"header-section"
 								? "active"
 								: ""
-						}>
+						}
+						onClick={goToTop}>
 						Inicio
 					</Link>
 					<Link
@@ -203,7 +215,8 @@ const Navbar = () => {
 							"hola-section"
 								? "active"
 								: ""
-						}>
+						}
+						onClick={goToTop}>
 						Yogurts
 					</Link>
 					<Link
@@ -213,7 +226,8 @@ const Navbar = () => {
 							"skills-section"
 								? "active"
 								: ""
-						}>
+						}
+						onClick={goToTop}>
 						Waffles
 					</Link>
 					<Link
@@ -223,7 +237,8 @@ const Navbar = () => {
 							"experience-section"
 								? "active"
 								: ""
-						}>
+						}
+						onClick={goToTop}>
 						Batidos
 					</Link>
 					<Link
@@ -233,7 +248,8 @@ const Navbar = () => {
 							"contact-section"
 								? "active"
 								: ""
-						}>
+						}
+						onClick={goToTop}>
 						Delivery
 					</Link>
 				</div>

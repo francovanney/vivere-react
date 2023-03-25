@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import { goToTop } from "../Navbar";
 
 const CardCategorias = ({ nombreCategoria, hrefCategoria }) => {
 	return (
-		<div>
+		<div onClick={goToTop}>
 			<Link to={hrefCategoria}>
 				<div className='categoria'>
 					<img
@@ -12,7 +13,9 @@ const CardCategorias = ({ nombreCategoria, hrefCategoria }) => {
 					/>
 					<h4>{nombreCategoria}</h4>
 					<button>
-						<i className='fas fa-chevron-right'>{'>'}</i>
+						<i className='fas fa-chevron-right'>
+							{">"}
+						</i>
 					</button>
 				</div>
 			</Link>

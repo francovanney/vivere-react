@@ -4,6 +4,8 @@ import "./App.scss";
 import Body from "./components/Body";
 import BatidosYLicuados from "./components/Categorias/BatidosYLicuados";
 import Delivery from "./components/Categorias/Delivery";
+import Gustos from "./components/Categorias/Gustos";
+import Recomendaciones from "./components/Categorias/Recomendaciones";
 import Waffles from "./components/Categorias/Waffles";
 import Yogurts from "./components/Categorias/Yogurts";
 import Footer from "./components/Footer";
@@ -44,6 +46,14 @@ const App = () => {
 					<Route
 						path='/delivery'
 						element={<Delivery />}
+					/>
+					<Route
+						path='/gustos'
+						element={<Gustos />}
+					/>
+					<Route
+						path='/recomendaciones'
+						element={<Recomendaciones />}
 					/>
 					<Route
 						path='/producto/:id'

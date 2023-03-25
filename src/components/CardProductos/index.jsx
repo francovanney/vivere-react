@@ -1,6 +1,7 @@
+import { goToTop } from "../Navbar";
 const CardProducto = ({ nombreProducto }) => {
 	return (
-		<div>
+		<div onClick={goToTop}>
 			<div className='categoria'>
 				<img
 					id='iconos'

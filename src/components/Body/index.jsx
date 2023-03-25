@@ -1,9 +1,14 @@
-import { Container } from "react-bootstrap";
+import { useEffect } from "react";
+import { Card, Container } from "react-bootstrap";
 import data from "../../json/productos.json";
 import CardCategorias from "../CardCategorias";
 import LogoVivere from "/Logos/logo_main_J22.png";
 
 const Body = () => {
+	useEffect(() => {
+		window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+	});
+
 	const sections = data.reduce((acc, item) => {
 		if (!acc[item.seccion]) {
 			acc[item.seccion] = [item];
@@ -19,7 +24,7 @@ const Body = () => {
 		<>
 			<section className='page-section mt-5 mx-auto'>
 				<Container className='d-flex flex-column align-items-center'>
-					<Container className="mb-5">
+					<Container className='mb-5'>
 						<div id='main-header'>
 							<div id='ig-main'>
 								<a
@@ -53,6 +58,18 @@ const Body = () => {
 							/>
 						</div>
 					))}
+					<CardCategorias
+						nombreCategoria={"Gustos"}
+						hrefCategoria={"/gustos"}
+					/>
+					<CardCategorias
+						nombreCategoria={
+							"Recomendaciones"
+						}
+						hrefCategoria={
+							"/recomendaciones"
+						}
+					/>
 				</Container>
 			</section>
 		</>
