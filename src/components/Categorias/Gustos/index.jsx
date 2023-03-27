@@ -2,7 +2,7 @@ const Gustos = () => {
 	return (
 		<>
 			<section className='page-section mt-5 mx-auto d-flex align-items-center justify-content-center'>
-				<div className='w-50 text-center'>
+				<div className='d-flex flex-column align-items-center w-50'>
 					<ul id='lista-gustos'>
 						<h1 className='mb-4'>
 							Yogurts
@@ -67,9 +67,7 @@ const Gustos = () => {
 					</ul>
 
 					<ul id='lista-gustos'>
-						<h2 id='subtitle'>
-							Crocantes
-						</h2>
+						<h2 id='subtitle'>Crocantes</h2>
 						<li>Mani c/choc Negro</li>
 						<li>
 							Galletitas b. Choc.

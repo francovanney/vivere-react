@@ -6,8 +6,8 @@
 		"nombre": "Yogurt Helado Mini",
 		"precio": "$300",
 		"descripcion": "Yogurt helado + 2 topping arriba.",
-		"urlImagen": "/ImagenesProductos/yogurts/yogurt-mini.jpg",
-		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/yogurts/yogurt-mini.jpg"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/yogurts/yogurt-mini.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/yogurtsIcon.png"
 	},
 	{
 		"id": 101,

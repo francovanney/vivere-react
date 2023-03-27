@@ -24,7 +24,7 @@ const BatidosYLicuados = () => {
 		<section className='page-section mx-auto'>
 			<SubNav
 				nombreCategoria={"Delivery"}
-				imgCategoria={"/CategoriaImg/deliveryIcon.png"}
+				imgCategoria={"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"}
 			/>
 			<h1 id='titulo-menu'>Delivery</h1>
 			<Container className='d-flex flex-column align-items-center'>

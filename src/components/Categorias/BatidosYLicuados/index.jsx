@@ -24,7 +24,9 @@ const BatidosYLicuados = () => {
 		<section className='page-section mx-auto'>
 			<SubNav
 				nombreCategoria={"Batidos"}
-				imgCategoria={"/CategoriaImg/batidosIcon.png"}
+				imgCategoria={
+					"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/batidosIcon.png"
+				}
 			/>
 
 			<h1 id='titulo-menu'>Batidos Y Licuados</h1>

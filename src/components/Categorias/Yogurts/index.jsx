@@ -24,7 +24,7 @@ const Yogurts = () => {
 		<section className='page-section mx-auto'>
 			<SubNav
 				nombreCategoria={"Yogurts"}
-				imgCategoria={"/CategoriaImg/yogurtsIcon.png"}
+				imgCategoria={"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/yogurtsIcon.png"}
 			/>
 			<h1 id='titulo-menu'>Yogurts Helados</h1>
 			<Container className='d-flex flex-column align-items-center'>
