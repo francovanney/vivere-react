@@ -1,8 +1,8 @@
-import { Nav } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 import { useState, useEffect, useContext } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { MediaQueries } from "../Utils/mediaqueries";
-import { Link } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 // GO TO TOP //
 
@@ -15,6 +15,10 @@ const Navbar = () => {
 	const [expandNavbar, setExpandNavbar] = useState(undefined);
 	const [active, setActive] = useState("");
 	const { isTabletOrMobile } = MediaQueries();
+	const navigate = useNavigate();
+	const goToHome = () => {
+		navigate("/");
+	};
 
 	// SCROLL TO SECTION //
 
@@ -95,24 +99,20 @@ const Navbar = () => {
 				style={{ scaleX }}
 			/>
 			{isTabletOrMobile ? (
-				<div className='container-logoMobile'>
-					<Link to={"/"}>
-						<img
-							id='logo-up'
-							src={
-								"/LogoVivere/LogoVivereSolo.png"
-							}
-							alt=''
-						/>
-						<img
-							id='logo-down'
-							src={
-								"/LogoVivere/Logo-Down.png"
-							}
-							alt=''
-						/>
-					</Link>
-				</div>
+				<Container className='d-flex justify-content-center align-items-center'>
+					<img
+						width={30}
+						src='https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/LogoVivere/LogoVivereSolo.png'
+						alt=''
+						onClick={goToHome}
+					/>
+					<img
+						width={100}
+						src='https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/LogoVivere/Logo-Down.png'
+						alt=''
+						onClick={goToHome}
+					/>
+				</Container>
 			) : (
 				<>
 					<Link to={"/"}>

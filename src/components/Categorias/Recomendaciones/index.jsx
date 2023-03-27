@@ -1,8 +1,8 @@
 const Recomendaciones = () => {
 	return (
 		<>
-			<section className='page-section mt-5 mx-auto d-flex align-items-center justify-content-center'>
-				<div className='d-flex flex-column align-items-center w-50'>
+			<section className='page-section mt-5'>
+				<div className='d-flex flex-column align-items-center justify-content-center'>
 					<ul id='lista-gustos'>
 						<h2
 							id='subtitle'

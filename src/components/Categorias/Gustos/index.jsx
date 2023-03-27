@@ -1,8 +1,10 @@
+import { Container } from "react-bootstrap";
+
 const Gustos = () => {
 	return (
 		<>
-			<section className='page-section mt-5 mx-auto d-flex align-items-center justify-content-center'>
-				<div className='d-flex flex-column align-items-center w-50'>
+			<section className='page-section mt-5'>
+				<Container className='d-flex flex-column align-items-center justify-content-center'>
 					<ul id='lista-gustos'>
 						<h1 className='mb-4'>
 							Yogurts
@@ -109,7 +111,7 @@ const Gustos = () => {
 						<li>Chip blanco</li>
 						<li>Chip Negro</li>
 					</ul>
-				</div>
+				</Container>
 			</section>
 		</>
 	);
