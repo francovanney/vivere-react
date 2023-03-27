@@ -7,8 +7,8 @@
 		"precio": "$300",
 		"descripcion": "Yogurt helado + 2 topping arriba.",
 		"urlImagen": "/ImagenesProductos/yogurts/yogurt-mini.jpg",
-		"categoriaImg": "/CategoriaImg/yogurtsIcon.png",
-		"imgMiniProducto": "/CategoriaImg/yogurtsIcon.png"
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/yogurtsIcon.png",
+		"imgMiniProducto": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/yogurtsIcon.png"
 	},
 	{
 		"id": 101,
@@ -17,8 +17,8 @@
 		"nombre": "Yogurt Helado Chico",
 		"precio": "$350",
 		"descripcion": "Yogurt helado + 3 topping arriba.",
-		"urlImagen": "/ImagenesProductos/yogurts/yogurt-chico.jpg",
-		"categoriaImg": "/CategoriaImg/yogurtsIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/yogurts/yogurt-chico.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/yogurtsIcon.png"
 	},
 	{
 		"id": 102,
@@ -27,8 +27,8 @@
 		"nombre": "Yogurt Helado Mediano",
 		"precio": "$500",
 		"descripcion": "Yogurt helado + 5 topping arriba.",
-		"urlImagen": "/ImagenesProductos/yogurts/yogurt-mediano.jpg",
-		"categoriaImg": "/CategoriaImg/yogurtsIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/yogurts/yogurt-mediano.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/yogurtsIcon.png"
 	},
 	{
 		"id": 103,
@@ -37,8 +37,8 @@
 		"nombre": "Yogurt Helado Premium",
 		"precio": "$600",
 		"descripcion": "Se realiza en capas:2 topping abajo yogurt helado, 3 topping en el medio yogurt helado + una salsa arriba.",
-		"urlImagen": "/ImagenesProductos/yogurts/yougurtPremium.jpg",
-		"categoriaImg": "/CategoriaImg/yogurtsIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/yogurts/yougurtPremium.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/yogurtsIcon.png"
 	},
 	{
 		"id": 104,
@@ -47,8 +47,8 @@
 		"nombre": "Yogurt Helado Big Premium",
 		"precio": "$750",
 		"descripcion": "Se realiza en capas:3 topping abajo yogurt helado, 3 topping en el medio yogurt helado + una salsa arriba.",
-		"urlImagen": "/ImagenesProductos/yogurts/yogurt-bigPremium.jpg",
-		"categoriaImg": "/CategoriaImg/yogurtsIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/yogurts/yogurt-bigPremium.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/yogurtsIcon.png"
 	},
 	{
 		"id": 200,
@@ -57,8 +57,8 @@
 		"nombre": "Waffle Belga Sandwich",
 		"precio": "$650",
 		"descripcion": "2 paredes esponjosas de waffle donde se pueden agregar en su interior 1 fruta, 1 salsa entre (Chantilly, nutella/dulce de leche/chocolate negro/bon o bon) y finalizando con 1 crocante .",
-		"urlImagen": "/ImagenesProductos/waffles/waffle_sand_new.JPG",
-		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/waffle_sand_new.JPG",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 	},
 	{
 		"id": 201,
@@ -67,8 +67,8 @@
 		"nombre": "Waffle Belga Al Plato",
 		"precio": "$650",
 		"descripcion": "Dulce, esponjoso y calentito waffle que se le puede agregar 2 frutas, 1 salsa, y 1 crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200",
-		"urlImagen": "/ImagenesProductos/waffles/waffle_belga_cajita.jpg",
-		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/waffle_belga_cajita.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 	},
 	{
 		"id": 202,
@@ -77,8 +77,8 @@
 		"nombre": "Waffle Bubble Al Plato",
 		"precio": "$1300",
 		"descripcion": "Para compartir. Dulce, esponjoso y calentito waffle con burbujas que se le puede agregar 2 frutas, 1 salsa, y un crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200.",
-		"urlImagen": "/ImagenesProductos/waffles/waffle-bubble-al-plato-cajita.jpg",
-		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/waffle-bubble-al-plato-cajita.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 	},
 	{
 		"id": 203,
@@ -87,8 +87,8 @@
 		"nombre": "Pancakes",
 		"precio": "$650",
 		"descripcion": "Torre de 3 capas dulces y esponjosas donde en su interior encontramos una fruta en la primer capa, una cascada de salsa en la segunda capa y finalizando con otra fruta más lluvia de topping crocante en la última capa. Adicional de yogurt 200 pesos.",
-		"urlImagen": "/ImagenesProductos/waffles/PANCAKES_new.jpg",
-		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/PANCAKES_new.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 	},
 	{
 		"id": 204,
@@ -97,8 +97,8 @@
 		"nombre": "Cuore Dolce",
 		"precio": "$650",
 		"descripcion": "3 frutas frescas, burbujas de waffle y un corazón de fondue. * Se le puede adicionar yogurt",
-		"urlImagen": "/ImagenesProductos/waffles/cuore_dolce.JPG",
-		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/cuore_dolce.JPG",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 	},
 	{
 		"id": 205,
@@ -107,8 +107,8 @@
 		"nombre": "Freddo-Caldo",
 		"precio": "$600",
 		"descripcion": "Una base de bizcochuelo caliente realizado con una receta italiana  de textura suave, dulce y esponjosa  en el centro  encontramos un colchón de fruta fresca de estación  combinado con el delicioso yogurt helado recubierto con un crocante y una salsa a tu gusto.",
-		"urlImagen": "/ImagenesProductos/waffles/freddo_caldo.JPG",
-		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/freddo_caldo.JPG",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 	},
 	{
 		"id": 206,
@@ -117,8 +117,8 @@
 		"nombre": "Chocolate Caliente",
 		"precio": "$480",
 		"descripcion": "",
-		"urlImagen": "/ImagenesProductos/waffles/chocolate_caliente.jpg",
-		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/chocolate_caliente.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 	},
 	{
 		"id": 207,
@@ -127,8 +127,8 @@
 		"nombre": "Frutillas Vivere",
 		"precio": "$",
 		"descripcion": "Coronadas con yogurt helado o crema chantilly",
-		"urlImagen": "/ImagenesProductos/waffles/ensalada_frutillas.jpg",
-		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/ensalada_frutillas.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 	},
 	{
 		"id": 208,
@@ -137,8 +137,8 @@
 		"nombre": "Ensalada Vivere",
 		"precio": "$",
 		"descripcion": "Ensalada frutal coronada con yogurt helado o crema chantilly",
-		"urlImagen": "/ImagenesProductos/waffles/ensalada_vivere.jpg",
-		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/ensalada_vivere.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 	},
 	{
 		"id": 300,
@@ -147,8 +147,8 @@
 		"nombre": "Batidos Tentación",
 		"precio": "$500",
 		"descripcion": "",
-		"urlImagen": "/ImagenesProductos/batidos/batido_tentacion.jpg",
-		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/batidos/batido_tentacion.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/batidosIcon.png"
 	},
 	{
 		"id": 301,
@@ -157,8 +157,8 @@
 		"nombre": "Batidos Frutales",
 		"precio": "$500",
 		"descripcion": "",
-		"urlImagen": "/ImagenesProductos/batidos/batidos_frutal.jpg",
-		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/batidos/batidos_frutal.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/batidosIcon.png"
 	},
 	{
 		"id": 302,
@@ -167,8 +167,8 @@
 		"nombre": "Licuado de medio litro",
 		"precio": "$500",
 		"descripcion": "",
-		"urlImagen": "/ImagenesProductos/batidos/LICUADOS.jpg",
-		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/batidos/LICUADOS.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/batidosIcon.png"
 	},
 	{
 		"id": 303,
@@ -177,8 +177,8 @@
 		"nombre": "Exprimido de Naranja",
 		"precio": "$500",
 		"descripcion": "Exprimido de Naranja",
-		"urlImagen": "/ImagenesProductos/batidos/exprimidoNaranja.jpg",
-		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/batidos/exprimidoNaranja.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/batidosIcon.png"
 	},
 	{
 		"id": 304,
@@ -187,8 +187,8 @@
 		"nombre": "Limonadas",
 		"precio": "$500",
 		"descripcion": "■ Limonada de limón | ■ Limonada de frutos rojos",
-		"urlImagen": "/ImagenesProductos/batidos/limonadaClasica.jpg",
-		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/batidos/limonadaClasica.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/batidosIcon.png"
 	},
 	{
 		"id": 305,
@@ -197,8 +197,8 @@
 		"nombre": "Batido Vivere Bene",
 		"precio": "$",
 		"descripcion": "Batido a eleccion coronado con yogurt helado",
-		"urlImagen": "/ImagenesProductos/batidos/batido_vivere.jpg",
-		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/batidos/batido_vivere.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/batidosIcon.png"
 	},
 	{
 		"id": 400,
@@ -207,8 +207,8 @@
 		"nombre": "Waffle Belga Sandwich",
 		"precio": "$650",
 		"descripcion": "2 paredes esponjosas de waffle donde se pueden agregar en su interior 1 fruta, 1 salsa entre (Chantilly, nutella/dulce de leche/chocolate negro/bon o bon) y finalizando con 1 crocante .",
-		"urlImagen": "/ImagenesProductos/waffles/waffle_sand_new.JPG",
-		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/waffle_sand_new.JPG",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
 		"id": 401,
@@ -217,8 +217,8 @@
 		"nombre": "Waffle Belga Al Plato",
 		"precio": "$750",
 		"descripcion": "Dulce, esponjoso y calentito waffle que se le puede agregar 2 frutas, 1 salsa, y 1 crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200",
-		"urlImagen": "/ImagenesProductos/waffles/waffle_belga_cajita.jpg",
-		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/waffle_belga_cajita.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
 		"id": 402,
@@ -227,8 +227,8 @@
 		"nombre": "Waffle Bubble Al Plato",
 		"precio": "$1400",
 		"descripcion": "Para compartir. Dulce, esponjoso y calentito waffle con burbujas que se le puede agregar 2 frutas, 1 salsa, y un crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200.",
-		"urlImagen": "/ImagenesProductos/waffles/waffle-bubble-al-plato-cajita.jpg",
-		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/waffle-bubble-al-plato-cajita.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
 		"id": 403,
@@ -237,8 +237,8 @@
 		"nombre": "Pancakes",
 		"precio": "$750",
 		"descripcion": "Torre de 3 capas dulces y esponjosas donde en su interior encontramos una fruta en la primer capa, una cascada de salsa en la segunda capa y finalizando con otra fruta más lluvia de topping crocante en la última capa. Adicional de yogurt 200 pesos.",
-		"urlImagen": "/ImagenesProductos/waffles/PANCAKES_new.jpg",
-		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/PANCAKES_new.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
 		"id": 404,
@@ -247,8 +247,8 @@
 		"nombre": "1Kg Yogurt Helado",
 		"precio": "$1950",
 		"descripcion": "1 Kg yogurt helado + 5 topping a libre elección. • Adicional topping 100$ ",
-		"urlImagen": "/ImagenesProductos/yogurts/Yogurt_1kg.jpg",
-		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/yogurts/Yogurt_1kg.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
 		"id": 405,
@@ -257,8 +257,8 @@
 		"nombre": "1/2Kg Yogurt Helado",
 		"precio": "$1200",
 		"descripcion": "1/2 Kg yogurt helado + 4 topping a libre elección. • Adicional topping 100$",
-		"urlImagen": "/ImagenesProductos/yogurts/Yogurt_1-2kg.jpg",
-		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/yogurts/Yogurt_1-2kg.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
 		"id": 406,
@@ -267,8 +267,8 @@
 		"nombre": "1/4Kg Yogurt Helado",
 		"precio": "$650",
 		"descripcion": "1/4 Kg yogurt helado + 3 topping a libre elección. (Desarmado $700). • Adicional topping 100$",
-		"urlImagen": "/ImagenesProductos/yogurts/Yogurt_1-4kg.jpg",
-		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/yogurts/Yogurt_1-4kg.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
 		"id": 407,
@@ -277,8 +277,8 @@
 		"nombre": "Batidos",
 		"precio": "$550",
 		"descripcion": "Se envían sin crema",
-		"urlImagen": "/ImagenesProductos/batidos/batidos_delivery.JPG",
-		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/batidos/batidos_delivery.JPG",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
 		"id": 408,
@@ -287,7 +287,7 @@
 		"nombre": "Chocolate Caliente",
 		"precio": "$500",
 		"descripcion": "",
-		"urlImagen": "/ImagenesProductos/waffles/chocolate_caliente.jpg",
-		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/chocolate_caliente.jpg",
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	}
 ]
