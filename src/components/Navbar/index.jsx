@@ -120,14 +120,14 @@ const Navbar = () => {
 							<img
 								id='logo-up'
 								src={
-									"/LogoVivere/LogoVivereSolo.png"
+									"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/LogoVivere/LogoVivereSolo.png"
 								}
 								alt=''
 							/>
 							<img
 								id='logo-down'
 								src={
-									"/LogoVivere/Logo-Down.png"
+									"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/LogoVivere/Logo-Down.png"
 								}
 								alt=''
 							/>

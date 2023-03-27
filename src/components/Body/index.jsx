@@ -65,7 +65,9 @@ const Body = () => {
 					<CardCategorias
 						nombreCategoria={"Gustos"}
 						hrefCategoria={"/gustos"}
-						categoriaImg={'/CategoriaImg/gustosIcon.jpg'}
+						categoriaImg={
+							"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/gustosIcon.jpg"
+						}
 					/>
 					<CardCategorias
 						nombreCategoria={
@@ -74,7 +76,9 @@ const Body = () => {
 						hrefCategoria={
 							"/recomendaciones"
 						}
-						categoriaImg={'/CategoriaImg/recomendacionesIcon.png'}
+						categoriaImg={
+							"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/recomendacionesIcon.png"
+						}
 					/>
 				</Container>
 			</section>
