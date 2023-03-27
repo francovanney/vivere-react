@@ -84,7 +84,7 @@ header {
     }
     #circulo{
         height:260px;
-        width:260px;
+        min-width:260px;
         background:linear-gradient(311deg, rgba(30,130,80,1) 11%, rgba(30,130,80,1) 29%, rgba(255,255,255,1) 83%);
         -moz-border-radius:150px;
         -webkit-border-radius:150px;

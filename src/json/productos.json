@@ -1,263 +1,293 @@
 [
-    {
-        "id": 100,
-        "route": "yogurts",
-        "seccion": "Yogurts Helados",
-        "nombre": "Yogurt Helado Mini",
-        "precio": "$300",
-        "descripcion": "Yogurt helado + 2 topping arriba.",
-        "urlImagen": "/ImagenesProductos/yogurts/yogurt-mini.jpg"
-    },
-    {
-        "id": 101,
-        "route": "yogurts",
-        "seccion": "Yogurts Helados",
-        "nombre": "Yogurt Helado Chico",
-        "precio": "$350",
-        "descripcion": "Yogurt helado + 3 topping arriba.",
-        "urlImagen": "/ImagenesProductos/yogurts/yogurt-chico.jpg"
-    },
-    {
-        "id": 102,
-        "route": "yogurts",
-        "seccion": "Yogurts Helados",
-        "nombre": "Yogurt Helado Mediano",
-        "precio": "$500",
-        "descripcion": "Yogurt helado + 5 topping arriba.",
-        "urlImagen": "/ImagenesProductos/yogurts/yogurt-mediano.jpg"
-    },
-    {
-        "id": 103,
-        "route": "yogurts",
-        "seccion": "Yogurts Helados",
-        "nombre": "Yogurt Helado Premium",
-        "precio": "$600",
-        "descripcion": "Se realiza en capas:2 topping abajo yogurt helado, 3 topping en el medio yogurt helado + una salsa arriba.",
-        "urlImagen": "/ImagenesProductos/yogurts/yougurtPremium.jpg"
-    },
-    {
-        "id": 104,
-        "route": "yogurts",
-        "seccion": "Yogurts Helados",
-        "nombre": "Yogurt Helado Big Premium",
-        "precio": "$750",
-        "descripcion": "Se realiza en capas:3 topping abajo yogurt helado, 3 topping en el medio yogurt helado + una salsa arriba.",
-        "urlImagen": "/ImagenesProductos/yogurts/yogurt-bigPremium.jpg"
-    },
-    {
-        "id": 200,
-        "route": "waffles",
-        "seccion": "Waffles, Pancakes y más",
-        "nombre": "Waffle Belga Sandwich",
-        "precio": "$650",
-        "descripcion": "2 paredes esponjosas de waffle donde se pueden agregar en su interior 1 fruta, 1 salsa entre (Chantilly, nutella/dulce de leche/chocolate negro/bon o bon) y finalizando con 1 crocante .",
-        "urlImagen": "/ImagenesProductos/waffles/waffle_sand_new.JPG"
-    },
-    {
-        "id": 201,
-        "route": "waffles",
-        "seccion": "Waffles, Pancakes y más",
-        "nombre": "Waffle Belga Al Plato",
-        "precio": "$650",
-        "descripcion": "Dulce, esponjoso y calentito waffle que se le puede agregar 2 frutas, 1 salsa, y 1 crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200",
-        "urlImagen": "/ImagenesProductos/waffles/waffle_belga_cajita.jpg"
-    },
-    {
-        "id": 202,
-        "route": "waffles",
-        "seccion": "Waffles, Pancakes y más",
-        "nombre": "Waffle Bubble Al Plato",
-        "precio": "$1300",
-        "descripcion": "Para compartir. Dulce, esponjoso y calentito waffle con burbujas que se le puede agregar 2 frutas, 1 salsa, y un crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200.",
-        "urlImagen": "/ImagenesProductos/waffles/waffle-bubble-al-plato-cajita.jpg"
-    },
-    {
-        "id": 203,
-        "route": "waffles",
-        "seccion": "Waffles, Pancakes y más",
-        "nombre": "Pancakes",
-        "precio": "$650",
-        "descripcion": "Torre de 3 capas dulces y esponjosas donde en su interior encontramos una fruta en la primer capa, una cascada de salsa en la segunda capa y finalizando con otra fruta más lluvia de topping crocante en la última capa. Adicional de yogurt 200 pesos.",
-        "urlImagen": "/ImagenesProductos/waffles/PANCAKES_new.jpg"
-    },
-    {
-        "id": 204,
-        "route": "waffles",
-        "seccion": "Waffles, Pancakes y más",
-        "nombre": "Cuore Dolce",
-        "precio": "$650",
-        "descripcion": "3 frutas frescas, burbujas de waffle y un corazón de fondue. * Se le puede adicionar yogurt",
-        "urlImagen": "/ImagenesProductos/waffles/cuore_dolce.JPG"
-    },
-    {
-        "id": 205,
-        "route": "waffles",
-        "seccion": "Waffles, Pancakes y más",
-        "nombre": "Freddo-Caldo",
-        "precio": "$600",
-        "descripcion": "Una base de bizcochuelo caliente realizado con una receta italiana  de textura suave, dulce y esponjosa  en el centro  encontramos un colchón de fruta fresca de estación  combinado con el delicioso yogurt helado recubierto con un crocante y una salsa a tu gusto.",
-        "urlImagen": "/ImagenesProductos/waffles/freddo_caldo.JPG"
-    },
-    {
-        "id": 206,
-        "route": "waffles",
-        "seccion": "Waffles, Pancakes y más",
-        "nombre": "Chocolate Caliente",
-        "precio": "$480",
-        "descripcion": "",
-        "urlImagen": "/ImagenesProductos/waffles/chocolate_caliente.jpg"
-    },
-    {
-        "id": 207,
-        "route": "waffles",
-        "seccion": "Waffles, Pancakes y más",
-        "nombre": "Frutillas Vivere",
-        "precio": "$",
-        "descripcion": "Coronadas con yogurt helado o crema chantilly",
-        "urlImagen": "/ImagenesProductos/waffles/ensalada_frutillas.jpg"
-    },
-    {
-        "id": 208,
-        "route": "waffles",
-        "seccion": "Waffles, Pancakes y más",
-        "nombre": "Ensalada Vivere",
-        "precio": "$",
-        "descripcion": "Ensalada frutal coronada con yogurt helado o crema chantilly",
-        "urlImagen": "/ImagenesProductos/waffles/ensalada_vivere.jpg"
-    },
-    {
-        "id": 300,
-        "route": "batidos",
-        "seccion": "Batidos",
-        "nombre": "Batidos Tentación",
-        "precio": "$500",
-        "descripcion": "",
-        "urlImagen": "/ImagenesProductos/batidos/batido_tentacion.jpg"
-    },
-    {
-        "id": 301,
-        "route": "batidos",
-        "seccion": "Batidos",
-        "nombre": "Batidos Frutales",
-        "precio": "$500",
-        "descripcion": "",
-        "urlImagen": "/ImagenesProductos/batidos/batidos_frutal.jpg"
-    },
-    {
-        "id": 302,
-        "route": "batidos",
-        "seccion": "Batidos",
-        "nombre": "Licuado de medio litro",
-        "precio": "$500",
-        "descripcion": "",
-        "urlImagen": "/ImagenesProductos/licuados/LICUADOS.jpg"
-    },
-    {
-        "id": 303,
-        "route": "batidos",
-        "seccion": "Batidos",
-        "nombre": "Exprimido de Naranja",
-        "precio": "$500",
-        "descripcion": "Exprimido de Naranja",
-        "urlImagen": "/ImagenesProductos/exprimidos/exprimidoNaranja.jpg"
-    },
-    {
-        "id": 304,
-        "route": "batidos",
-        "seccion": "Batidos",
-        "nombre": "Limonadas",
-        "precio": "$500",
-        "descripcion": "■ Limonada de limón | ■ Limonada de frutos rojos",
-        "urlImagen": "/ImagenesProductos/exprimidos/limonadaClasica.jpg"
-    },
-    {
-        "id": 305,
-        "route": "batidos",
-        "seccion": "Batidos",
-        "nombre": "Batido Vivere Bene",
-        "precio": "$",
-        "descripcion": "Batido a eleccion coronado con yogurt helado",
-        "urlImagen": "/ImagenesProductos/batidos/batido_vivere.jpg"
-    },
-    {
-        "id": 400,
-        "route": "delivery",
-        "seccion": "Delivery",
-        "nombre": "Waffle Belga Sandwich",
-        "precio": "$650",
-        "descripcion": "2 paredes esponjosas de waffle donde se pueden agregar en su interior 1 fruta, 1 salsa entre (Chantilly, nutella/dulce de leche/chocolate negro/bon o bon) y finalizando con 1 crocante .",
-        "urlImagen": "/ImagenesProductos/waffles/waffle_sand_new.JPG"
-    },
-    {
-        "id": 401,
-        "route": "delivery",
-        "seccion": "Delivery",
-        "nombre": "Waffle Belga Al Plato",
-        "precio": "$750",
-        "descripcion": "Dulce, esponjoso y calentito waffle que se le puede agregar 2 frutas, 1 salsa, y 1 crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200",
-        "urlImagen": "/ImagenesProductos/waffles/waffle_belga_cajita.jpg"
-    },
-    {
-        "id": 402,
-        "route": "delivery",
-        "seccion": "Delivery",
-        "nombre": "Waffle Bubble Al Plato",
-        "precio": "$1400",
-        "descripcion": "Para compartir. Dulce, esponjoso y calentito waffle con burbujas que se le puede agregar 2 frutas, 1 salsa, y un crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200.",
-        "urlImagen": "/ImagenesProductos/waffles/waffle-bubble-al-plato-cajita.jpg"
-    },
-    {
-        "id": 403,
-        "route": "delivery",
-        "seccion": "Delivery",
-        "nombre": "Pancakes",
-        "precio": "$750",
-        "descripcion": "Torre de 3 capas dulces y esponjosas donde en su interior encontramos una fruta en la primer capa, una cascada de salsa en la segunda capa y finalizando con otra fruta más lluvia de topping crocante en la última capa. Adicional de yogurt 200 pesos.",
-        "urlImagen": "/ImagenesProductos/waffles/PANCAKES_new.jpg"
-    },
-    {
-        "id": 404,
-        "route": "delivery",
-        "seccion": "Delivery",
-        "nombre": "1Kg Yogurt Helado",
-        "precio": "$1950",
-        "descripcion": "1 Kg yogurt helado + 5 topping a libre elección. • Adicional topping 100$ ",
-        "urlImagen": "/ImagenesProductos/yogurts/Yogurt_1kg.jpg"
-    },
-    {
-        "id": 405,
-        "route": "delivery",
-        "seccion": "Delivery",
-        "nombre": "1/2Kg Yogurt Helado",
-        "precio": "$1200",
-        "descripcion": "1/2 Kg yogurt helado + 4 topping a libre elección. • Adicional topping 100$",
-        "urlImagen": "/ImagenesProductos/yogurts/Yogurt_1-2kg.jpg"
-    },
-    {
-        "id": 406,
-        "route": "delivery",
-        "seccion": "Delivery",
-        "nombre": "1/4Kg Yogurt Helado",
-        "precio": "$650",
-        "descripcion": "1/4 Kg yogurt helado + 3 topping a libre elección. (Desarmado $700). • Adicional topping 100$",
-        "urlImagen": "/ImagenesProductos/yogurts/Yogurt_1-4kg.jpg"
-    },
-    {
-        "id": 407,
-        "route": "delivery",
-        "seccion": "Delivery",
-        "nombre": "Batidos",
-        "precio": "$550",
-        "descripcion": "Se envían sin crema",
-        "urlImagen": "/ImagenesProductos/batidos/batidos_delivery.JPG"
-    },
-    {
-        "id": 408,
-        "route": "delivery",
-        "seccion": "Delivery",
-        "nombre": "Chocolate Caliente",
-        "precio": "$500",
-        "descripcion": "",
-        "urlImagen": "/ImagenesProductos/waffles/chocolate_caliente.jpg"
-    }
+	{
+		"id": 100,
+		"route": "yogurts",
+		"seccion": "Yogurts Helados",
+		"nombre": "Yogurt Helado Mini",
+		"precio": "$300",
+		"descripcion": "Yogurt helado + 2 topping arriba.",
+		"urlImagen": "/ImagenesProductos/yogurts/yogurt-mini.jpg",
+		"categoriaImg": "/CategoriaImg/yogurtsIcon.png",
+		"imgMiniProducto": "/CategoriaImg/yogurtsIcon.png"
+	},
+	{
+		"id": 101,
+		"route": "yogurts",
+		"seccion": "Yogurts Helados",
+		"nombre": "Yogurt Helado Chico",
+		"precio": "$350",
+		"descripcion": "Yogurt helado + 3 topping arriba.",
+		"urlImagen": "/ImagenesProductos/yogurts/yogurt-chico.jpg",
+		"categoriaImg": "/CategoriaImg/yogurtsIcon.png"
+	},
+	{
+		"id": 102,
+		"route": "yogurts",
+		"seccion": "Yogurts Helados",
+		"nombre": "Yogurt Helado Mediano",
+		"precio": "$500",
+		"descripcion": "Yogurt helado + 5 topping arriba.",
+		"urlImagen": "/ImagenesProductos/yogurts/yogurt-mediano.jpg",
+		"categoriaImg": "/CategoriaImg/yogurtsIcon.png"
+	},
+	{
+		"id": 103,
+		"route": "yogurts",
+		"seccion": "Yogurts Helados",
+		"nombre": "Yogurt Helado Premium",
+		"precio": "$600",
+		"descripcion": "Se realiza en capas:2 topping abajo yogurt helado, 3 topping en el medio yogurt helado + una salsa arriba.",
+		"urlImagen": "/ImagenesProductos/yogurts/yougurtPremium.jpg",
+		"categoriaImg": "/CategoriaImg/yogurtsIcon.png"
+	},
+	{
+		"id": 104,
+		"route": "yogurts",
+		"seccion": "Yogurts Helados",
+		"nombre": "Yogurt Helado Big Premium",
+		"precio": "$750",
+		"descripcion": "Se realiza en capas:3 topping abajo yogurt helado, 3 topping en el medio yogurt helado + una salsa arriba.",
+		"urlImagen": "/ImagenesProductos/yogurts/yogurt-bigPremium.jpg",
+		"categoriaImg": "/CategoriaImg/yogurtsIcon.png"
+	},
+	{
+		"id": 200,
+		"route": "waffles",
+		"seccion": "Waffles, Pancakes y más",
+		"nombre": "Waffle Belga Sandwich",
+		"precio": "$650",
+		"descripcion": "2 paredes esponjosas de waffle donde se pueden agregar en su interior 1 fruta, 1 salsa entre (Chantilly, nutella/dulce de leche/chocolate negro/bon o bon) y finalizando con 1 crocante .",
+		"urlImagen": "/ImagenesProductos/waffles/waffle_sand_new.JPG",
+		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+	},
+	{
+		"id": 201,
+		"route": "waffles",
+		"seccion": "Waffles, Pancakes y más",
+		"nombre": "Waffle Belga Al Plato",
+		"precio": "$650",
+		"descripcion": "Dulce, esponjoso y calentito waffle que se le puede agregar 2 frutas, 1 salsa, y 1 crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200",
+		"urlImagen": "/ImagenesProductos/waffles/waffle_belga_cajita.jpg",
+		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+	},
+	{
+		"id": 202,
+		"route": "waffles",
+		"seccion": "Waffles, Pancakes y más",
+		"nombre": "Waffle Bubble Al Plato",
+		"precio": "$1300",
+		"descripcion": "Para compartir. Dulce, esponjoso y calentito waffle con burbujas que se le puede agregar 2 frutas, 1 salsa, y un crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200.",
+		"urlImagen": "/ImagenesProductos/waffles/waffle-bubble-al-plato-cajita.jpg",
+		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+	},
+	{
+		"id": 203,
+		"route": "waffles",
+		"seccion": "Waffles, Pancakes y más",
+		"nombre": "Pancakes",
+		"precio": "$650",
+		"descripcion": "Torre de 3 capas dulces y esponjosas donde en su interior encontramos una fruta en la primer capa, una cascada de salsa en la segunda capa y finalizando con otra fruta más lluvia de topping crocante en la última capa. Adicional de yogurt 200 pesos.",
+		"urlImagen": "/ImagenesProductos/waffles/PANCAKES_new.jpg",
+		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+	},
+	{
+		"id": 204,
+		"route": "waffles",
+		"seccion": "Waffles, Pancakes y más",
+		"nombre": "Cuore Dolce",
+		"precio": "$650",
+		"descripcion": "3 frutas frescas, burbujas de waffle y un corazón de fondue. * Se le puede adicionar yogurt",
+		"urlImagen": "/ImagenesProductos/waffles/cuore_dolce.JPG",
+		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+	},
+	{
+		"id": 205,
+		"route": "waffles",
+		"seccion": "Waffles, Pancakes y más",
+		"nombre": "Freddo-Caldo",
+		"precio": "$600",
+		"descripcion": "Una base de bizcochuelo caliente realizado con una receta italiana  de textura suave, dulce y esponjosa  en el centro  encontramos un colchón de fruta fresca de estación  combinado con el delicioso yogurt helado recubierto con un crocante y una salsa a tu gusto.",
+		"urlImagen": "/ImagenesProductos/waffles/freddo_caldo.JPG",
+		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+	},
+	{
+		"id": 206,
+		"route": "waffles",
+		"seccion": "Waffles, Pancakes y más",
+		"nombre": "Chocolate Caliente",
+		"precio": "$480",
+		"descripcion": "",
+		"urlImagen": "/ImagenesProductos/waffles/chocolate_caliente.jpg",
+		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+	},
+	{
+		"id": 207,
+		"route": "waffles",
+		"seccion": "Waffles, Pancakes y más",
+		"nombre": "Frutillas Vivere",
+		"precio": "$",
+		"descripcion": "Coronadas con yogurt helado o crema chantilly",
+		"urlImagen": "/ImagenesProductos/waffles/ensalada_frutillas.jpg",
+		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+	},
+	{
+		"id": 208,
+		"route": "waffles",
+		"seccion": "Waffles, Pancakes y más",
+		"nombre": "Ensalada Vivere",
+		"precio": "$",
+		"descripcion": "Ensalada frutal coronada con yogurt helado o crema chantilly",
+		"urlImagen": "/ImagenesProductos/waffles/ensalada_vivere.jpg",
+		"categoriaImg": "/CategoriaImg/wafflesIcon.png"
+	},
+	{
+		"id": 300,
+		"route": "batidos",
+		"seccion": "Batidos",
+		"nombre": "Batidos Tentación",
+		"precio": "$500",
+		"descripcion": "",
+		"urlImagen": "/ImagenesProductos/batidos/batido_tentacion.jpg",
+		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+	},
+	{
+		"id": 301,
+		"route": "batidos",
+		"seccion": "Batidos",
+		"nombre": "Batidos Frutales",
+		"precio": "$500",
+		"descripcion": "",
+		"urlImagen": "/ImagenesProductos/batidos/batidos_frutal.jpg",
+		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+	},
+	{
+		"id": 302,
+		"route": "batidos",
+		"seccion": "Batidos",
+		"nombre": "Licuado de medio litro",
+		"precio": "$500",
+		"descripcion": "",
+		"urlImagen": "/ImagenesProductos/batidos/LICUADOS.jpg",
+		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+	},
+	{
+		"id": 303,
+		"route": "batidos",
+		"seccion": "Batidos",
+		"nombre": "Exprimido de Naranja",
+		"precio": "$500",
+		"descripcion": "Exprimido de Naranja",
+		"urlImagen": "/ImagenesProductos/batidos/exprimidoNaranja.jpg",
+		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+	},
+	{
+		"id": 304,
+		"route": "batidos",
+		"seccion": "Batidos",
+		"nombre": "Limonadas",
+		"precio": "$500",
+		"descripcion": "■ Limonada de limón | ■ Limonada de frutos rojos",
+		"urlImagen": "/ImagenesProductos/batidos/limonadaClasica.jpg",
+		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+	},
+	{
+		"id": 305,
+		"route": "batidos",
+		"seccion": "Batidos",
+		"nombre": "Batido Vivere Bene",
+		"precio": "$",
+		"descripcion": "Batido a eleccion coronado con yogurt helado",
+		"urlImagen": "/ImagenesProductos/batidos/batido_vivere.jpg",
+		"categoriaImg": "/CategoriaImg/batidosIcon.png"
+	},
+	{
+		"id": 400,
+		"route": "delivery",
+		"seccion": "Delivery",
+		"nombre": "Waffle Belga Sandwich",
+		"precio": "$650",
+		"descripcion": "2 paredes esponjosas de waffle donde se pueden agregar en su interior 1 fruta, 1 salsa entre (Chantilly, nutella/dulce de leche/chocolate negro/bon o bon) y finalizando con 1 crocante .",
+		"urlImagen": "/ImagenesProductos/waffles/waffle_sand_new.JPG",
+		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+	},
+	{
+		"id": 401,
+		"route": "delivery",
+		"seccion": "Delivery",
+		"nombre": "Waffle Belga Al Plato",
+		"precio": "$750",
+		"descripcion": "Dulce, esponjoso y calentito waffle que se le puede agregar 2 frutas, 1 salsa, y 1 crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200",
+		"urlImagen": "/ImagenesProductos/waffles/waffle_belga_cajita.jpg",
+		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+	},
+	{
+		"id": 402,
+		"route": "delivery",
+		"seccion": "Delivery",
+		"nombre": "Waffle Bubble Al Plato",
+		"precio": "$1400",
+		"descripcion": "Para compartir. Dulce, esponjoso y calentito waffle con burbujas que se le puede agregar 2 frutas, 1 salsa, y un crocante a libre eleccion y tambien se puede adicionar yogurt helado. * Adicional de Yogurt $200.",
+		"urlImagen": "/ImagenesProductos/waffles/waffle-bubble-al-plato-cajita.jpg",
+		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+	},
+	{
+		"id": 403,
+		"route": "delivery",
+		"seccion": "Delivery",
+		"nombre": "Pancakes",
+		"precio": "$750",
+		"descripcion": "Torre de 3 capas dulces y esponjosas donde en su interior encontramos una fruta en la primer capa, una cascada de salsa en la segunda capa y finalizando con otra fruta más lluvia de topping crocante en la última capa. Adicional de yogurt 200 pesos.",
+		"urlImagen": "/ImagenesProductos/waffles/PANCAKES_new.jpg",
+		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+	},
+	{
+		"id": 404,
+		"route": "delivery",
+		"seccion": "Delivery",
+		"nombre": "1Kg Yogurt Helado",
+		"precio": "$1950",
+		"descripcion": "1 Kg yogurt helado + 5 topping a libre elección. • Adicional topping 100$ ",
+		"urlImagen": "/ImagenesProductos/yogurts/Yogurt_1kg.jpg",
+		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+	},
+	{
+		"id": 405,
+		"route": "delivery",
+		"seccion": "Delivery",
+		"nombre": "1/2Kg Yogurt Helado",
+		"precio": "$1200",
+		"descripcion": "1/2 Kg yogurt helado + 4 topping a libre elección. • Adicional topping 100$",
+		"urlImagen": "/ImagenesProductos/yogurts/Yogurt_1-2kg.jpg",
+		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+	},
+	{
+		"id": 406,
+		"route": "delivery",
+		"seccion": "Delivery",
+		"nombre": "1/4Kg Yogurt Helado",
+		"precio": "$650",
+		"descripcion": "1/4 Kg yogurt helado + 3 topping a libre elección. (Desarmado $700). • Adicional topping 100$",
+		"urlImagen": "/ImagenesProductos/yogurts/Yogurt_1-4kg.jpg",
+		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+	},
+	{
+		"id": 407,
+		"route": "delivery",
+		"seccion": "Delivery",
+		"nombre": "Batidos",
+		"precio": "$550",
+		"descripcion": "Se envían sin crema",
+		"urlImagen": "/ImagenesProductos/batidos/batidos_delivery.JPG",
+		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+	},
+	{
+		"id": 408,
+		"route": "delivery",
+		"seccion": "Delivery",
+		"nombre": "Chocolate Caliente",
+		"precio": "$500",
+		"descripcion": "",
+		"urlImagen": "/ImagenesProductos/waffles/chocolate_caliente.jpg",
+		"categoriaImg": "/CategoriaImg/deliveryIcon.png"
+	}
 ]

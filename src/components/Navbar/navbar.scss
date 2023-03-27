@@ -24,7 +24,10 @@ nav.scrolled-down img {
 }
 
 .container-logo {
-  margin-left: 100px;
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -36,15 +39,15 @@ nav.scrolled-down img {
   color: rgb(0, 0, 0);
   margin-right: 100px;
   gap: 50px;
-  &:hover {
-    color: var(--FirstColor);
-  }
 }
 
 .navbar a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1em;
+  &:hover {
+    color: #1c7e4d !important;
+  }
 }
 
 .toggleButton {
@@ -144,4 +147,28 @@ nav.scrolled-down img {
 
 .nav-link.active {
   color: var(--FirstColor) !important;
+}
+
+#logo-up {
+  width: 40px !important;
+}
+
+#logo-down {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 100px !important;
+}
+
+.container-logoMobile {
+  margin: 0 auto
+}
+
+.container-logoMobile > #logo-down {
+  padding-left: 4px !important;
+  padding-bottom: 15px !important;
+}
+
+.container-logoMobile > #logo-up {
+  padding-left: 4px !important;
+  padding-bottom: 15px !important;
 }

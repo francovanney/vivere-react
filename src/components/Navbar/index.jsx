@@ -88,171 +88,109 @@ const Navbar = () => {
 	return (
 		<nav
 			activeKey='/'
-			className={scrolled ? "scrolled-down navbar" : "navbar"}
+			className={"navbar"}
 			id={expandNavbar ? "open" : "close"}>
-			<div className='container-logo'>
-				{/* <img src={logo} width={35} id='Logo' /> */}
-			</div>
 			<motion.div
 				className='progress-bar'
 				style={{ scaleX }}
 			/>
 			{isTabletOrMobile ? (
-				<div className='links'>
-					<div className='toggleButton'>
-						<button
-							onClick={() => {
-								setExpandNavbar(
-									(
-										prev
-									) =>
-										!prev
-								);
-							}}>
-							{expandNavbar
-								? "X"
-								: "O"}
-						</button>
-					</div>
-					<Nav.Link
-						className={
-							active ===
-							"header-section"
-								? "active"
-								: ""
-						}
-						onClick={() => {
-							handleCloseNavbar();
-							setSection(
-								"header-section"
-							);
-							goToTop();
-						}}>
-						Inicio
-					</Nav.Link>
-					<Nav.Link
-						className={
-							active ===
-							"hola-section"
-								? "active"
-								: ""
-						}
-						onClick={() => {
-							handleCloseNavbar();
-							setSection(
-								"hola-section"
-							);
-							goToTop();
-						}}>
-						2
-					</Nav.Link>
-					<Nav.Link
-						className={
-							active ===
-							"skills-section"
-								? "active"
-								: ""
-						}
-						onClick={() => {
-							handleCloseNavbar();
-							setSection(
-								"skills-section"
-							);
-							goToTop();
-						}}>
-						s
-					</Nav.Link>
-					<Nav.Link
-						className={
-							active ===
-							"experience-section"
-								? "active"
-								: ""
-						}
-						onClick={() => {
-							handleCloseNavbar();
-							setSection(
-								"experience-section"
-							);
-							goToTop();
-						}}>
-						3
-					</Nav.Link>
-					<Nav.Link
-						className={
-							active ===
-							"contact-section"
-								? "active"
-								: ""
-						}
-						onClick={() => {
-							handleCloseNavbar();
-							setSection(
-								"contact-section"
-							);
-							goToTop();
-						}}>
-						4
-					</Nav.Link>
+				<div className='container-logoMobile'>
+					<Link to={"/"}>
+						<img
+							id='logo-up'
+							src={
+								"/LogoVivere/LogoVivereSolo.png"
+							}
+							alt=''
+						/>
+						<img
+							id='logo-down'
+							src={
+								"/LogoVivere/Logo-Down.png"
+							}
+							alt=''
+						/>
+					</Link>
 				</div>
 			) : (
-				<div className='links'>
-					<Link
-						to={"/"}
-						className={
-							active ===
-							"header-section"
-								? "active"
-								: ""
-						}
-						onClick={goToTop}>
-						Inicio
+				<>
+					<Link to={"/"}>
+						<div className='container-logo'>
+							<img
+								id='logo-up'
+								src={
+									"/LogoVivere/LogoVivereSolo.png"
+								}
+								alt=''
+							/>
+							<img
+								id='logo-down'
+								src={
+									"/LogoVivere/Logo-Down.png"
+								}
+								alt=''
+							/>
+						</div>
 					</Link>
-					<Link
-						to={"/yogurts"}
-						className={
-							active ===
-							"hola-section"
-								? "active"
-								: ""
-						}
-						onClick={goToTop}>
-						Yogurts
-					</Link>
-					<Link
-						to={"/waffles"}
-						className={
-							active ===
-							"skills-section"
-								? "active"
-								: ""
-						}
-						onClick={goToTop}>
-						Waffles
-					</Link>
-					<Link
-						to={"/batidos"}
-						className={
-							active ===
-							"experience-section"
-								? "active"
-								: ""
-						}
-						onClick={goToTop}>
-						Batidos
-					</Link>
-					<Link
-						to={"/delivery"}
-						className={
-							active ===
-							"contact-section"
-								? "active"
-								: ""
-						}
-						onClick={goToTop}>
-						Delivery
-					</Link>
-				</div>
+					<div className='links'>
+						<Link
+							to={"/"}
+							className={
+								active ===
+								"header-section"
+									? "active"
+									: ""
+							}
+							onClick={goToTop}>
+							Inicio
+						</Link>
+						<Link
+							to={"/yogurts"}
+							className={
+								active ===
+								"hola-section"
+									? "active"
+									: ""
+							}
+							onClick={goToTop}>
+							Yogurts
+						</Link>
+						<Link
+							to={"/waffles"}
+							className={
+								active ===
+								"skills-section"
+									? "active"
+									: ""
+							}
+							onClick={goToTop}>
+							Waffles
+						</Link>
+						<Link
+							to={"/batidos"}
+							className={
+								active ===
+								"experience-section"
+									? "active"
+									: ""
+							}
+							onClick={goToTop}>
+							Batidos
+						</Link>
+						<Link
+							to={"/delivery"}
+							className={
+								active ===
+								"contact-section"
+									? "active"
+									: ""
+							}
+							onClick={goToTop}>
+							Delivery
+						</Link>
+					</div>
+				</>
 			)}
 		</nav>
 	);

@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
 import { goToTop } from "../Navbar";
-import data from '../../json/productos.json'
-import YogurtIcon from "../../assets/SubNavIcons/yogurtsIcon.png";
-import WafflesIcon from "../../assets/SubNavIcons/wafflesIcon.png";
 
-const CardCategorias = ({ nombreCategoria, hrefCategoria, imgCategoria }) => {
+const CardCategorias = ({ nombreCategoria, hrefCategoria, categoriaImg }) => {
+	const imagenCategoria = categoriaImg;
+
 	return (
 		<div onClick={goToTop}>
 			<Link to={hrefCategoria}>
 				<div className='categoria'>
 					<img
 						id='iconos'
-						src={YogurtIcon}
-						alt=''
+						src={imagenCategoria}
+						alt={nombreCategoria}
 					/>
 					<h4>{nombreCategoria}</h4>
 					<button>

@@ -9,7 +9,14 @@ const Producto = () => {
 
 	return (
 		<section className='page-section'>
-			<SubNav nombreCategoria={producto.seccion + ' - ' + producto.nombre} isProduct={true}/>
+			<SubNav
+				nombreCategoria={
+					producto.seccion +
+					" - " +
+					producto.nombre
+				}
+				isProduct={true}
+			/>
 			<Container className='d-flex align-items-center justify-content-center mt-5'>
 				<Card id='card' style={{ width: "18rem" }}>
 					<Card.Img
@@ -17,7 +24,7 @@ const Producto = () => {
 						src={producto.urlImagen}
 					/>
 					<Card.Body>
-						<Container className="px-0 d-flex align-items-center justify-content-between">
+						<Container className='px-0 d-flex align-items-center justify-content-between'>
 							<Card.Title id='card-title'>
 								{
 									producto.nombre

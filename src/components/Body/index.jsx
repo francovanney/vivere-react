@@ -4,8 +4,6 @@ import data from "../../json/productos.json";
 import CardCategorias from "../CardCategorias";
 import LogoVivere from "/Logos/logo_main_J22.png";
 
-
-
 const Body = () => {
 	useEffect(() => {
 		window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -57,12 +55,17 @@ const Body = () => {
 										.seccion
 								}
 								hrefCategoria={`/${sectionArray[0].route}`}
+								categoriaImg={
+									sectionArray[0]
+										.categoriaImg
+								}
 							/>
 						</div>
 					))}
 					<CardCategorias
 						nombreCategoria={"Gustos"}
 						hrefCategoria={"/gustos"}
+						categoriaImg={'/CategoriaImg/gustosIcon.jpg'}
 					/>
 					<CardCategorias
 						nombreCategoria={
@@ -71,6 +74,7 @@ const Body = () => {
 						hrefCategoria={
 							"/recomendaciones"
 						}
+						categoriaImg={'/CategoriaImg/recomendacionesIcon.png'}
 					/>
 				</Container>
 			</section>

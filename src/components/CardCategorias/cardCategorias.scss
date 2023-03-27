@@ -1,7 +1,7 @@
 h4 {
   color: #1E8250;
   padding-left: 10px !important;
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-family: "Yanone Kaffeesatz";
   font-weight: 600 !important;
 }
@@ -14,8 +14,9 @@ h4 {
     background: #f5f5f5d0 0% 0% no-repeat padding-box;
     border: 0.5px solid #1E8250;
     border-radius: 15px;
-    width: 300px;
-    height: 55px;
+    min-width: 330px;
+    width: 50%;
+    height: 65px;
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
@@ -42,7 +43,7 @@ h4 {
   .categoria #iconos {
     width: 40px;
     height: 40px;
-    padding: 5px;
+    margin-right: 3px;
   }
   .categoria button {
     height: 25px;
@@ -59,6 +60,6 @@ h4 {
   .categoria h3 {
     font-family: "Yanone Kaffeesatz";
     color: #1E8250;
-    font-size: 1.5em;
-    padding-left: 15px;
+    font-size: 1.7em;
+    padding-left: 8px !important;
   }

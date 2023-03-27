@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import CardProducto from "../../CardProductos";
 import data from "../../../json/productos.json";
 import SubNav from "../../SubNav";
-import DeliveryIcon from '../../../assets/SubNavIcons/deliveryIcon.png'
 
 const BatidosYLicuados = () => {
 	const delivery = data.filter((item) => item.route === "delivery");
@@ -11,7 +10,10 @@ const BatidosYLicuados = () => {
 	const deliveryCards = delivery.reduce((acc, item) => {
 		const batidoCard = (
 			<Link to={`/producto/${item.id}`} key={item.id}>
-				<CardProducto nombreProducto={item.nombre} />
+				<CardProducto
+					nombreProducto={item.nombre}
+					imgCategoria={item.urlImagen}
+				/>
 			</Link>
 		);
 		acc.push(batidoCard);
@@ -20,7 +22,10 @@ const BatidosYLicuados = () => {
 
 	return (
 		<section className='page-section mx-auto'>
-			<SubNav nombreCategoria={'Delivery'} imgCategoria={DeliveryIcon}/>
+			<SubNav
+				nombreCategoria={"Delivery"}
+				imgCategoria={"/CategoriaImg/deliveryIcon.png"}
+			/>
 			<h1 id='titulo-menu'>Delivery</h1>
 			<Container className='d-flex flex-column align-items-center'>
 				<div>{deliveryCards}</div>

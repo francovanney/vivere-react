@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import CardProducto from "../../CardProductos";
 import data from "../../../json/productos.json";
 import SubNav from "../../SubNav";
-import YogurtIcon from "../../../assets/SubNavIcons/yogurtsIcon.png";
 
 const Yogurts = () => {
 	const yogurts = data.filter((item) => item.route === "yogurts");
@@ -11,7 +10,10 @@ const Yogurts = () => {
 	const yogurtCards = yogurts.reduce((acc, item) => {
 		const yogurtCard = (
 			<Link to={`/producto/${item.id}`} key={item.id}>
-				<CardProducto nombreProducto={item.nombre} />
+				<CardProducto
+					nombreProducto={item.nombre}
+					imgCategoria={item.urlImagen}
+				/>
 			</Link>
 		);
 		acc.push(yogurtCard);
@@ -22,7 +24,7 @@ const Yogurts = () => {
 		<section className='page-section mx-auto'>
 			<SubNav
 				nombreCategoria={"Yogurts"}
-				imgCategoria={YogurtIcon}
+				imgCategoria={"/CategoriaImg/yogurtsIcon.png"}
 			/>
 			<h1 id='titulo-menu'>Yogurts Helados</h1>
 			<Container className='d-flex flex-column align-items-center'>
