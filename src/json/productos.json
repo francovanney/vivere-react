@@ -204,50 +204,50 @@
 		"route": "combos",
 		"seccion": "Combos",
 		"nombre": "Combo Belga",
-		"precio": "$500",
+		"precio": "$1600",
 		"descripcion": "",
 		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/ImagenesProductos/combos/COMBO%20BELGA.jpg",
-		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
 		"id": 501,
 		"route": "combos",
 		"seccion": "Combos",
 		"nombre": "Combo Bubble",
-		"precio": "$500",
+		"precio": "$2000",
 		"descripcion": "",
 		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/ImagenesProductos/combos/COMBO%20BUBBLE.jpg",
-		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
 		"id": 502,
 		"route": "combos",
 		"seccion": "Combos",
 		"nombre": "Combo Kids",
-		"precio": "$500",
+		"precio": "$1100",
 		"descripcion": "",
 		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/ImagenesProductos/combos/COMBO%20KIDS.jpg",
-		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
 		"id": 503,
 		"route": "combos",
 		"seccion": "Combos",
 		"nombre": "Combo Pancake",
-		"precio": "$500",
+		"precio": "$1350",
 		"descripcion": "",
 		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/ImagenesProductos/combos/COMBO%20PANCAKE.jpg",
-		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
 		"id": 504,
 		"route": "combos",
 		"seccion": "Combos",
 		"nombre": "Combo Sandwitch",
-		"precio": "$500",
+		"precio": "$1200",
 		"descripcion": "",
 		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/ImagenesProductos/combos/COMBO%20SANDWITCH.jpg",
-		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
+		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
 		"id": 400,

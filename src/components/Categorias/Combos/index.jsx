@@ -25,7 +25,7 @@ const Combos = () => {
 			<SubNav
 				nombreCategoria={"Combos"}
 				imgCategoria={
-					"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
+					"https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 				}
 			/>
 			<h1 id='titulo-menu'>Combos</h1>
