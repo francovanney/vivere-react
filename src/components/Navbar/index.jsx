@@ -179,6 +179,17 @@ const Navbar = () => {
 							Batidos
 						</Link>
 						<Link
+							to={"/combos"}
+							className={
+								active ===
+								"contact-section"
+									? "active"
+									: ""
+							}
+							onClick={goToTop}>
+							Combos
+						</Link>
+						<Link
 							to={"/delivery"}
 							className={
 								active ===

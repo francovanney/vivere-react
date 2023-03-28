@@ -3,6 +3,7 @@ import { Router, Routes, Route } from "react-router-dom";
 import "./App.scss";
 import Body from "./components/Body";
 import BatidosYLicuados from "./components/Categorias/BatidosYLicuados";
+import Combos from "./components/Categorias/Combos";
 import Delivery from "./components/Categorias/Delivery";
 import Gustos from "./components/Categorias/Gustos";
 import Recomendaciones from "./components/Categorias/Recomendaciones";
@@ -54,6 +55,10 @@ const App = () => {
 					<Route
 						path='/recomendaciones'
 						element={<Recomendaciones />}
+					/>
+					<Route
+						path='/combos'
+						element={<Combos />}
 					/>
 					<Route
 						path='/producto/:id'
