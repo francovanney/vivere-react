@@ -200,7 +200,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/batidosIcon.png"
 	},
 	{
-		"id": 500,
+		"id": 400,
 		"route": "combos",
 		"seccion": "Combos",
 		"nombre": "Combo Belga",
@@ -210,7 +210,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
-		"id": 501,
+		"id": 401,
 		"route": "combos",
 		"seccion": "Combos",
 		"nombre": "Combo Bubble",
@@ -220,7 +220,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
-		"id": 502,
+		"id": 402,
 		"route": "combos",
 		"seccion": "Combos",
 		"nombre": "Combo Kids",
@@ -230,7 +230,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
-		"id": 503,
+		"id": 403,
 		"route": "combos",
 		"seccion": "Combos",
 		"nombre": "Combo Pancake",
@@ -240,7 +240,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
-		"id": 504,
+		"id": 404,
 		"route": "combos",
 		"seccion": "Combos",
 		"nombre": "Combo Sandwitch",
@@ -250,7 +250,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
-		"id": 400,
+		"id": 500,
 		"route": "delivery",
 		"seccion": "Delivery",
 		"nombre": "Waffle Belga Sandwich",
@@ -260,7 +260,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
-		"id": 401,
+		"id": 501,
 		"route": "delivery",
 		"seccion": "Delivery",
 		"nombre": "Waffle Belga Al Plato",
@@ -270,7 +270,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
-		"id": 402,
+		"id": 502,
 		"route": "delivery",
 		"seccion": "Delivery",
 		"nombre": "Waffle Bubble Al Plato",
@@ -280,7 +280,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
-		"id": 403,
+		"id": 503,
 		"route": "delivery",
 		"seccion": "Delivery",
 		"nombre": "Pancakes",
@@ -290,7 +290,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
-		"id": 404,
+		"id": 504,
 		"route": "delivery",
 		"seccion": "Delivery",
 		"nombre": "1Kg Yogurt Helado",
@@ -300,7 +300,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
-		"id": 405,
+		"id": 505,
 		"route": "delivery",
 		"seccion": "Delivery",
 		"nombre": "1/2Kg Yogurt Helado",
@@ -310,7 +310,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
-		"id": 406,
+		"id": 506,
 		"route": "delivery",
 		"seccion": "Delivery",
 		"nombre": "1/4Kg Yogurt Helado",
@@ -320,7 +320,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
-		"id": 407,
+		"id": 507,
 		"route": "delivery",
 		"seccion": "Delivery",
 		"nombre": "Batidos",
@@ -330,7 +330,7 @@
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
 	},
 	{
-		"id": 408,
+		"id": 508,
 		"route": "delivery",
 		"seccion": "Delivery",
 		"nombre": "Chocolate Caliente",

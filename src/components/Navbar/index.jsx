@@ -1,8 +1,8 @@
-import { Container, Nav } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { useState, useEffect, useContext } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { MediaQueries } from "../Utils/mediaqueries";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 // GO TO TOP //
 
