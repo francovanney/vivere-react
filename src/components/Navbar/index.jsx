@@ -91,7 +91,7 @@ const Navbar = () => {
 
 	return (
 		<nav
-			activeKey='/'
+			
 			className={"navbar"}
 			id={expandNavbar ? "open" : "close"}>
 			<motion.div

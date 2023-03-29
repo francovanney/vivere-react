@@ -1,3 +1,4 @@
+import LazyLoad from "react-lazyload";
 import { Link } from "react-router-dom";
 import { goToTop } from "../Navbar";
 
@@ -8,11 +9,13 @@ const CardCategorias = ({ nombreCategoria, hrefCategoria, categoriaImg }) => {
 		<div onClick={goToTop}>
 			<Link to={hrefCategoria}>
 				<div className='categoria'>
-					<img
-						id='iconos'
-						src={imagenCategoria}
-						alt={nombreCategoria}
-					/>
+					<LazyLoad height={200} once>
+						<img
+							id='iconos'
+							src={imagenCategoria}
+							alt={nombreCategoria}
+						/>
+					</LazyLoad>
 					<h4>{nombreCategoria}</h4>
 					<button>
 						<i className='fas fa-chevron-right'>

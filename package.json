@@ -25,6 +25,7 @@
     "react-country-flag": "^3.0.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
+    "react-lazyload": "^3.2.0",
     "react-multi-carousel": "^2.8.2",
     "react-parallax": "^3.5.1",
     "react-responsive": "^9.0.2",

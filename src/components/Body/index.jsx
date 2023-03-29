@@ -1,8 +1,9 @@
 import { useEffect } from "react";
-import { Card, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import data from "../../json/productos.json";
 import CardCategorias from "../CardCategorias";
 import LogoVivere from "/Logos/logo_main_J22.png";
+import LazyLoad from "react-lazyload";
 
 const Body = () => {
 	useEffect(() => {
@@ -30,25 +31,31 @@ const Body = () => {
 								<a
 									href='https://www.instagram.com/viverebeneok/'
 									target='_blank'>
-									<i class='fab fa-instagram fa-3x'></i>
+									<i className='fab fa-instagram fa-3x'></i>
 								</a>
 							</div>
 							<div
 								id='circulo'
-								class='animate__animated animate__fadeIn animate__faster'>
-								<img
-									src={
-										LogoVivere
+								className='animate__animated animate__fadeIn animate__faster'>
+								<LazyLoad
+									height={
+										200
 									}
-									alt=''
-									id='logo-circulo'
-								/>
+									once>
+									<img
+										src={
+											LogoVivere
+										}
+										alt=''
+										id='logo-circulo'
+									/>
+								</LazyLoad>
 							</div>
 						</div>
 					</Container>
 					<h1 id='titulo-MainMenu'>Menú</h1>
 					{sectionArrays.map((sectionArray) => (
-						<div key={data.id}>
+						<div key={sectionArray[0].id}>
 							<CardCategorias
 								nombreCategoria={
 									sectionArray[0]

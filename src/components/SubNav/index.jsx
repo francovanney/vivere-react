@@ -1,3 +1,5 @@
+import LazyLoad from "react-lazyload";
+
 const SubNav = ({ nombreCategoria, imgCategoria, isProduct = false }) => {
 	return (
 		<>
@@ -9,11 +11,13 @@ const SubNav = ({ nombreCategoria, imgCategoria, isProduct = false }) => {
 				</section>
 			) : (
 				<section id='titulo'>
-					<img
-						id='iconos-ind'
-						src={imgCategoria}
-						alt=''
-					/>
+					<LazyLoad height={200} once>
+						<img
+							id='iconos-ind'
+							src={imgCategoria}
+							alt=''
+						/>
+					</LazyLoad>
 					<h1 className='titleSubNav'>
 						{nombreCategoria}
 					</h1>
