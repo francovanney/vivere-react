@@ -2,7 +2,8 @@ import { Container } from "react-bootstrap";
 import { useState, useEffect, useContext } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { MediaQueries } from "../Utils/mediaqueries";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
+import { Col, Row } from "react-bootstrap/esm";
 
 // GO TO TOP //
 
@@ -11,6 +12,8 @@ export const goToTop = () => {
 };
 
 const Navbar = () => {
+	const location = useLocation();
+	const shouldRenderBackButton = location.pathname !== "/";
 	const [scrolled, setScrolled] = useState(false);
 	const [expandNavbar, setExpandNavbar] = useState(undefined);
 	const [active, setActive] = useState("");
@@ -89,31 +92,49 @@ const Navbar = () => {
 		setExpandNavbar(false);
 	};
 
+	function handleGoBack() {
+		window.history.go(-1);
+	}
+
 	return (
-		<nav
-			
-			className={"navbar"}
-			id={expandNavbar ? "open" : "close"}>
+		<nav className={"navbar"} id={expandNavbar ? "open" : "close"}>
 			<motion.div
 				className='progress-bar'
 				style={{ scaleX }}
 			/>
 			{isTabletOrMobile ? (
-				<Container className='d-flex justify-content-center align-items-center'>
-					<img
-						id="logo-up"
-						width={30}
-						src='https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/LogoVivere/LogoVivereSolo.png'
-						alt=''
-						onClick={goToHome}
-					/>
-					<img
-						id="logo-down"
-						width={100}
-						src='https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/LogoVivere/Logo-Down.png'
-						alt=''
-						onClick={goToHome}
-					/>
+				<Container
+					style={{
+						position: "relative",
+						paddingLeft: "0px"
+					}}>
+					{shouldRenderBackButton && (
+						<button
+							id='goback-button'
+							onClick={handleGoBack}
+							style={{
+								position: "absolute",
+								left: 10
+							}}>
+							{"<"}
+						</button>
+					)}
+					<Col className='d-flex justify-content-center'>
+						<img
+							id='logo-up'
+							width={30}
+							src='https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/LogoVivere/LogoVivereSolo.png'
+							alt=''
+							onClick={goToHome}
+						/>
+						<img
+							id='logo-down'
+							width={100}
+							src='https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/LogoVivere/Logo-Down.png'
+							alt=''
+							onClick={goToHome}
+						/>
+					</Col>
 				</Container>
 			) : (
 				<>
