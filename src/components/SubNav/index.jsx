@@ -11,7 +11,7 @@ const SubNav = ({ nombreCategoria, imgCategoria, isProduct = false }) => {
 				</section>
 			) : (
 				<section id='titulo'>
-					<LazyLoad height={200} once>
+					<LazyLoad height={200} once className="d-flex">
 						<img
 							id='iconos-ind'
 							src={imgCategoria}

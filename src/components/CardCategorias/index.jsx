@@ -9,7 +9,10 @@ const CardCategorias = ({ nombreCategoria, hrefCategoria, categoriaImg }) => {
 		<div onClick={goToTop}>
 			<Link to={hrefCategoria}>
 				<div className='categoria'>
-					<LazyLoad height={200} once>
+					<LazyLoad
+						height={200}
+						once
+						className='d-flex'>
 						<img
 							id='iconos'
 							src={imagenCategoria}

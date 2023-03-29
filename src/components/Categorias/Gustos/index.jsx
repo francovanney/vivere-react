@@ -100,16 +100,28 @@ const Gustos = () => {
 						<li>Marroc</li>
 						<li>Marroc banana</li>
 						<li>Marroc frutilla</li>
-						<li>Nueces</li>
-						<li>Almendras</li>
 						<li>Crocante de mani</li>
-						<li>Granola</li>
-						<li>Mix frutos secos</li>
 						<li>Pasas de uva</li>
 						<li>Higos</li>
 						<li>Ciruela</li>
 						<li>Chip blanco</li>
 						<li>Chip Negro</li>
+					</ul>
+
+					<ul id='lista-gustos'>
+						<h2 id='subtitle'>
+							Zona Fitness
+						</h2>
+						<li>Miel</li>
+						<li>Mantequilla de maní</li>
+						<li>Nueces</li>
+						<li>Almendras</li>
+						<li>Avenas</li>
+						<li>Mix Frutos Secos</li>
+						<li>Granola</li>
+						<li>Bananita disecada</li>
+						<li>Castañas de cajú</li>
+						<li>Quinoa Pop</li>
 					</ul>
 				</Container>
 			</section>

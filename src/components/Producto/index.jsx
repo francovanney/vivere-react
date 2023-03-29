@@ -2,13 +2,14 @@ import { Container, Card } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import productos from "../../json/productos.json";
 import SubNav from "../SubNav";
+import { goToTop } from "../Navbar";
 
 const Producto = () => {
 	const { id } = useParams();
 	const producto = productos.find((p) => p.id === parseInt(id));
 
 	return (
-		<section className='page-section'>
+		<section className='page-section' onClick={goToTop}>
 			<SubNav
 				nombreCategoria={
 					producto.seccion +

@@ -38,8 +38,9 @@ const Body = () => {
 								id='circulo'
 								className='animate__animated animate__fadeIn animate__faster'>
 								<LazyLoad
+									className="d-flex"
 									height={
-										200
+										900
 									}
 									once>
 									<img

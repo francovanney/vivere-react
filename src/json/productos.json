@@ -25,7 +25,7 @@
 		"seccion": "Yogurts Helados",
 		"nombre": "Yogurt Helado Mediano",
 		"precio": "$500",
-		"descripcion": "Yogurt helado + 5 topping arriba.",
+		"descripcion": "Un topping debajo, yogurt helado + 4 topping arriba.",
 		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/yogurts/yogurt-mediano.jpg",
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/yogurtsIcon.png"
 	},
@@ -125,7 +125,7 @@
 		"seccion": "Waffles, Pancakes y más",
 		"nombre": "Frutillas Vivere",
 		"precio": "$",
-		"descripcion": "Coronadas con yogurt helado o crema chantilly",
+		"descripcion": "Frutillas coronadas con yogurt helado o crema chantilly",
 		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/ImagenesProductos/waffles/ensalada_frutillas.jpg",
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 	},

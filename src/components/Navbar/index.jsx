@@ -101,12 +101,14 @@ const Navbar = () => {
 			{isTabletOrMobile ? (
 				<Container className='d-flex justify-content-center align-items-center'>
 					<img
+						id="logo-up"
 						width={30}
 						src='https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/LogoVivere/LogoVivereSolo.png'
 						alt=''
 						onClick={goToHome}
 					/>
 					<img
+						id="logo-down"
 						width={100}
 						src='https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/LogoVivere/Logo-Down.png'
 						alt=''
