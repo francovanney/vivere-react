@@ -18,7 +18,7 @@ const Producto = () => {
 				}
 				isProduct={true}
 			/>
-			<Container className='d-flex align-items-center justify-content-center mt-5'>
+			<Container className='d-flex align-items-center justify-content-center mt-1'>
 				<Card id='card' style={{ width: "18rem" }}>
 					<Card.Img
 						variant='top'
