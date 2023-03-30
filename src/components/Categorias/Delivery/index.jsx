@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import CardProducto from "../../CardProductos";
 import data from "../../../json/productos.json";
 import SubNav from "../../SubNav";
+import { goToTop } from "../../Navbar";
 
 const BatidosYLicuados = () => {
 	const delivery = data.filter((item) => item.route === "delivery");
@@ -24,9 +25,13 @@ const BatidosYLicuados = () => {
 		<section className='page-section mx-auto'>
 			<SubNav
 				nombreCategoria={"Delivery"}
-				imgCategoria={"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"}
+				imgCategoria={
+					"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/deliveryIcon.png"
+				}
 			/>
-			<h1 id='titulo-menu'>Delivery</h1>
+			<h1 id='titulo-menu' onClick={goToTop}>
+				Delivery
+			</h1>
 			<Container className='d-flex flex-column align-items-center'>
 				<div>{deliveryCards}</div>
 			</Container>

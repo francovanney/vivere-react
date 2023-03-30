@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import CardProducto from "../../CardProductos";
 import data from "../../../json/productos.json";
 import SubNav from "../../SubNav";
+import { goToTop } from "../../Navbar";
 
 const BatidosYLicuados = () => {
 	const batidos = data.filter((item) => item.route === "batidos");
@@ -29,7 +30,9 @@ const BatidosYLicuados = () => {
 				}
 			/>
 
-			<h1 id='titulo-menu'>Batidos Y Licuados</h1>
+			<h1 id='titulo-menu' onClick={goToTop}>
+				Batidos Y Licuados
+			</h1>
 			<Container className='d-flex flex-column align-items-center'>
 				<div>{batidosCards}</div>
 			</Container>

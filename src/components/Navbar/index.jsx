@@ -3,7 +3,7 @@ import { useState, useEffect, useContext } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { MediaQueries } from "../Utils/mediaqueries";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import { Col, Row } from "react-bootstrap/esm";
+import { Col } from "react-bootstrap/esm";
 
 // GO TO TOP //
 
