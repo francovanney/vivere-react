@@ -29,9 +29,7 @@ const Combos = () => {
 					"https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 				}
 			/>
-			<h1 id='titulo-menu' onClick={goToTop}>
-				Combos
-			</h1>
+			<h1 id='titulo-menu'>Combos</h1>
 			<Container className='d-flex flex-column align-items-center'>
 				<div>{comboCards}</div>
 			</Container>

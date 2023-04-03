@@ -30,9 +30,7 @@ const BatidosYLicuados = () => {
 				}
 			/>
 
-			<h1 id='titulo-menu' onClick={goToTop}>
-				Batidos Y Licuados
-			</h1>
+			<h1 id='titulo-menu'>Batidos Y Licuados</h1>
 			<Container className='d-flex flex-column align-items-center'>
 				<div>{batidosCards}</div>
 			</Container>

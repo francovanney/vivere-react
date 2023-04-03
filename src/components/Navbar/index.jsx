@@ -29,14 +29,14 @@ const Navbar = () => {
 
 	// SCROLL TO SECTION //
 
-	const [section, setSection] = useState(null);
+/* 	const [section, setSection] = useState(null);
 
 	useEffect(() => {
 		const sectionElement = document.querySelector(`#${section}`);
 		if (sectionElement) {
 			sectionElement.scrollIntoView({ behavior: "smooth" });
 		}
-	}, [section]);
+	}, [section]); */
 
 	// SCROLL BAR //
 	const onScroll = () => {
@@ -68,7 +68,7 @@ const Navbar = () => {
 
 	// ACTIVE SECTION //
 
-	useEffect(() => {
+/* 	useEffect(() => {
 		const handleScroll = () => {
 			const sections = document.querySelectorAll("section");
 			sections.forEach((section) => {
@@ -94,7 +94,7 @@ const Navbar = () => {
 
 	const handleCloseNavbar = () => {
 		setExpandNavbar(false);
-	};
+	}; */
 
 	function handleGoBack() {
 		window.history.go(-1);

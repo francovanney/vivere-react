@@ -29,9 +29,7 @@ const Yogurts = () => {
 					"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/wafflesIcon.png"
 				}
 			/>
-			<h1 id='titulo-menu' onClick={goToTop}>
-				Waffles
-			</h1>
+			<h1 id='titulo-menu'>Waffles</h1>
 			<Container className='d-flex flex-column align-items-center'>
 				<div>{waffleCards}</div>
 			</Container>
