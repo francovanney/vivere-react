@@ -8,7 +8,11 @@ import { Col } from "react-bootstrap/esm";
 // GO TO TOP //
 
 export const goToTop = () => {
-	window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+	if (window.scroll) {
+		window.scroll(0, 0);
+	} else {
+		window.scrollTo(0, 0);
+	}
 };
 
 const Navbar = () => {
