@@ -1,13 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { goToTop } from "../Utils/goToTop";
 
-export const goToTop = () => {
-	window.scrollTo({
-		top: 0, // Posición de scroll en el eje Y
-		left: 0, // Posición de scroll en el eje X
-		behavior: "smooth" // Animación suave
-	});
-};
+useEffect(() => {
+	goToTop();
+}, []);
 
 const CardCategorias = ({ nombreCategoria, hrefCategoria, categoriaImg }) => {
 	const imagenCategoria = categoriaImg;
