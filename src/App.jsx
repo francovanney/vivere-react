@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
 import Producto from "./components/Producto";
+import { goToTop } from "./components/CardCategorias";
 
 const App = () => {
 	const [loading, setLoading] = useState(false);
@@ -28,45 +29,51 @@ const App = () => {
 
 	return (
 		<div className='App'>
-			<>
-				<Navbar />
-				<Routes>
-					<Route path='/' element={<Body />} />
-					<Route
-						path='/yogurts'
-						element={<Yogurts />}
-					/>
-					<Route
-						path='/waffles'
-						element={<Waffles />}
-					/>
-					<Route
-						path='/batidos'
-						element={<BatidosYLicuados />}
-					/>
-					<Route
-						path='/delivery'
-						element={<Delivery />}
-					/>
-					<Route
-						path='/gustos'
-						element={<Gustos />}
-					/>
-					<Route
-						path='/recomendaciones'
-						element={<Recomendaciones />}
-					/>
-					<Route
-						path='/combos'
-						element={<Combos />}
-					/>
-					<Route
-						path='/producto/:id'
-						element={<Producto />}
-					/>
-				</Routes>
-				<Footer />
-			</>
+			<Navbar />
+			<Routes>
+				<Route path='/' element={<Body />} />
+				<Route
+					path='/yogurts'
+					element={<Yogurts />}
+					onClick={goToTop}
+				/>
+				<Route
+					path='/waffles'
+					element={<Waffles />}
+					onClick={goToTop}
+				/>
+				<Route
+					path='/batidos'
+					element={<BatidosYLicuados />}
+					onClick={goToTop}
+				/>
+				<Route
+					path='/delivery'
+					element={<Delivery />}
+					onClick={goToTop}
+				/>
+				<Route
+					path='/gustos'
+					element={<Gustos />}
+					onClick={goToTop}
+				/>
+				<Route
+					path='/recomendaciones'
+					element={<Recomendaciones />}
+					onClick={goToTop}
+				/>
+				<Route
+					path='/combos'
+					element={<Combos />}
+					onClick={goToTop}
+				/>
+				<Route
+					path='/producto/:id'
+					element={<Producto />}
+					onClick={goToTop}
+				/>
+			</Routes>
+			<Footer />
 		</div>
 	);
 };

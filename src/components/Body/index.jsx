@@ -67,9 +67,6 @@ const Body = () => {
 									sectionArray[0]
 										.categoriaImg
 								}
-								onClick={
-									goToTop
-								}
 							/>
 						</div>
 					))}
@@ -79,7 +76,6 @@ const Body = () => {
 						categoriaImg={
 							"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/gustosIcon.jpg"
 						}
-						onClick={goToTop}
 					/>
 					<CardCategorias
 						nombreCategoria={
@@ -91,7 +87,6 @@ const Body = () => {
 						categoriaImg={
 							"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/recomendacionesIcon.png"
 						}
-						onClick={goToTop}
 					/>
 				</Container>
 			</section>
