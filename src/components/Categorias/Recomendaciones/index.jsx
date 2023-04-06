@@ -1,7 +1,12 @@
 const Recomendaciones = () => {
+	const goToTop = () => {
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	};
 	return (
 		<>
-			<section className='page-section mt-5'>
+			<section
+				className='page-section mt-5'
+				onClick={goToTop}>
 				<div className='d-flex flex-column align-items-center justify-content-center'>
 					<ul id='lista-gustos'>
 						<h2

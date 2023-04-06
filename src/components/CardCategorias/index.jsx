@@ -8,9 +8,13 @@ const CardCategorias = ({ nombreCategoria, hrefCategoria, categoriaImg }) => {
 	});
 	const imagenCategoria = categoriaImg;
 
+	const goToTop = () => {
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	};
+
 	return (
 		<Link to={hrefCategoria}>
-			<div className='categoria'>
+			<div className='categoria' onClick={goToTop}>
 				<img
 					id='iconos'
 					src={imagenCategoria}
