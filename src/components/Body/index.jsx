@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import data from "../../json/productos.json";
-import CardCategorias from "../CardCategorias";
+import CardCategorias, { goToTop } from "../CardCategorias";
 import LogoVivere from "/Logos/logo_main_J22.png";
 import LazyLoad from "react-lazyload";
 
@@ -38,7 +38,7 @@ const Body = () => {
 								id='circulo'
 								className='animate__animated animate__fadeIn animate__faster'>
 								<LazyLoad
-									className="d-flex"
+									className='d-flex'
 									height={
 										900
 									}
@@ -67,6 +67,9 @@ const Body = () => {
 									sectionArray[0]
 										.categoriaImg
 								}
+								onClick={
+									goToTop
+								}
 							/>
 						</div>
 					))}
@@ -76,6 +79,7 @@ const Body = () => {
 						categoriaImg={
 							"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/gustosIcon.jpg"
 						}
+						onClick={goToTop}
 					/>
 					<CardCategorias
 						nombreCategoria={
@@ -87,6 +91,7 @@ const Body = () => {
 						categoriaImg={
 							"https://raw.githubusercontent.com/francovanney/vivere-react/gh-pages/CategoriaImg/recomendacionesIcon.png"
 						}
+						onClick={goToTop}
 					/>
 				</Container>
 			</section>
