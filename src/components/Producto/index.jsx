@@ -2,7 +2,7 @@ import { Container, Card } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import productos from "../../json/productos.json";
 import SubNav from "../SubNav";
-import { goToTop } from "../Navbar";
+import { goToTop } from "../Utils/goToTop";
 
 const Producto = () => {
 	const { id } = useParams();

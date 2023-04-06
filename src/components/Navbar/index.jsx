@@ -4,16 +4,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import { MediaQueries } from "../Utils/mediaqueries";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Col } from "react-bootstrap/esm";
-
-// GO TO TOP //
-
-export const goToTop = () => {
-	if (window.scroll) {
-		window.scroll(0, 0);
-	} else {
-		window.scrollTo(0, 0);
-	}
-};
+import { goToTop } from "../Utils/goToTop";
 
 const Navbar = () => {
 	const location = useLocation();
@@ -29,7 +20,7 @@ const Navbar = () => {
 
 	// SCROLL TO SECTION //
 
-/* 	const [section, setSection] = useState(null);
+	/* 	const [section, setSection] = useState(null);
 
 	useEffect(() => {
 		const sectionElement = document.querySelector(`#${section}`);
@@ -39,7 +30,7 @@ const Navbar = () => {
 	}, [section]); */
 
 	// SCROLL BAR //
-/* 	const onScroll = () => {
+	/* 	const onScroll = () => {
 		const scrollPosition = window.pageYOffset;
 		if (scrollPosition > 10) {
 			if (!scrolled) {
@@ -68,7 +59,7 @@ const Navbar = () => {
 
 	// ACTIVE SECTION //
 
-/* 	useEffect(() => {
+	/* 	useEffect(() => {
 		const handleScroll = () => {
 			const sections = document.querySelectorAll("section");
 			sections.forEach((section) => {

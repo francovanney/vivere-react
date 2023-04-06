@@ -1,5 +1,6 @@
 import LazyLoad from "react-lazyload";
-import { goToTop } from "../Navbar";
+import { goToTop } from "../Utils/goToTop";
+
 const CardProducto = ({ nombreProducto, imgCategoria }) => {
 	return (
 		<div className='categoria' onClick={goToTop}>

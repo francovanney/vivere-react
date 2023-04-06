@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import data from "../../json/productos.json";
-import CardCategorias, { goToTop } from "../CardCategorias";
+import CardCategorias from "../CardCategorias";
 import LogoVivere from "/Logos/logo_main_J22.png";
 import LazyLoad from "react-lazyload";
 

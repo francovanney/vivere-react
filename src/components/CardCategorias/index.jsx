@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { goToTop } from "../Utils/goToTop";
-
-useEffect(() => {
-	goToTop();
-}, []);
+import { useEffect } from "react";
 
 const CardCategorias = ({ nombreCategoria, hrefCategoria, categoriaImg }) => {
+	useEffect(() => {
+		goToTop();
+	}, []);
 	const imagenCategoria = categoriaImg;
 
 	return (
 		<Link to={hrefCategoria}>
-			<div className='categoria' onClick={goToTop}>
+			<div className='categoria'>
 				<img
 					id='iconos'
 					src={imagenCategoria}

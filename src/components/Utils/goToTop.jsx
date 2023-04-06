@@ -1,7 +1,9 @@
+// GO TO TOP //
+
 export const goToTop = () => {
-	window.scrollTo({
-		top: 0, // Posición de scroll en el eje Y
-		left: 0, // Posición de scroll en el eje X
-		behavior: "smooth" // Animación suave
-	});
+	if (window.scroll) {
+		window.scroll(0, 0);
+	} else {
+		window.scrollTo(0, 0);
+	}
 };
