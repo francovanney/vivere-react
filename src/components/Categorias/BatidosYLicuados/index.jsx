@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import CardProducto from "../../CardProductos";
 import data from "../../../json/productos.json";
 import SubNav from "../../SubNav";
-import { goToTop } from "../../Navbar";
+
 
 const BatidosYLicuados = () => {
 	const batidos = data.filter((item) => item.route === "batidos");
