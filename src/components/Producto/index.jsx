@@ -2,14 +2,17 @@ import { Container, Card } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import productos from "../../json/productos.json";
 import SubNav from "../SubNav";
-import { goToTop } from "../Utils/goToTop";
+import { useEffect } from "react";
 
 const Producto = () => {
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	});
 	const { id } = useParams();
 	const producto = productos.find((p) => p.id === parseInt(id));
 
 	return (
-		<section className='page-section' onClick={goToTop}>
+		<section className='page-section'>
 			<SubNav
 				nombreCategoria={
 					producto.seccion +
@@ -18,9 +21,7 @@ const Producto = () => {
 				}
 				isProduct={true}
 			/>
-			<Container
-				className='d-flex align-items-center justify-content-center mt-1'
-				onClick={goToTop}>
+			<Container className='d-flex align-items-center justify-content-center mt-1'>
 				<Card id='card' style={{ width: "18rem" }}>
 					<Card.Img
 						variant='top'

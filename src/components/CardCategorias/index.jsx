@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { goToTop } from "../Utils/goToTop";
 import { useEffect } from "react";
 
 const CardCategorias = ({ nombreCategoria, hrefCategoria, categoriaImg }) => {
 	useEffect(() => {
-		goToTop();
-	}, []);
+		window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+	});
 	const imagenCategoria = categoriaImg;
 
 	return (

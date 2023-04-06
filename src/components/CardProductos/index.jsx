@@ -1,9 +1,13 @@
 import LazyLoad from "react-lazyload";
 import { goToTop } from "../Utils/goToTop";
+import { useEffect } from "react";
 
 const CardProducto = ({ nombreProducto, imgCategoria }) => {
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	});
 	return (
-		<div className='categoria' onClick={goToTop}>
+		<div className='categoria'>
 			<LazyLoad height={200} once className='d-flex'>
 				<img id='iconos' src={imgCategoria} alt='' />
 			</LazyLoad>

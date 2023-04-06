@@ -4,6 +4,7 @@ import data from "../../json/productos.json";
 import CardCategorias from "../CardCategorias";
 import LogoVivere from "/Logos/logo_main_J22.png";
 import LazyLoad from "react-lazyload";
+import { goToTop } from "../Utils/goToTop";
 
 const Body = () => {
 	useEffect(() => {
