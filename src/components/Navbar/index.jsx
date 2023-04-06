@@ -39,7 +39,7 @@ const Navbar = () => {
 	}, [section]); */
 
 	// SCROLL BAR //
-	const onScroll = () => {
+/* 	const onScroll = () => {
 		const scrollPosition = window.pageYOffset;
 		if (scrollPosition > 10) {
 			if (!scrolled) {
@@ -64,7 +64,7 @@ const Navbar = () => {
 		stiffness: 100,
 		damping: 30,
 		restDelta: 0.001
-	});
+	}); */
 
 	// ACTIVE SECTION //
 
@@ -104,7 +104,7 @@ const Navbar = () => {
 		<nav className={"navbar"} id={expandNavbar ? "open" : "close"}>
 			<motion.div
 				className='progress-bar'
-				style={{ scaleX }}
+				/* style={{ scaleX }} */
 			/>
 			{isTabletOrMobile ? (
 				<Container
