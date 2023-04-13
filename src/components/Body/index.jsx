@@ -4,7 +4,7 @@ import data from "../../json/productos.json";
 import CardCategorias from "../CardCategorias";
 import LogoVivere from "/Logos/logo_main_J22.png";
 import LazyLoad from "react-lazyload";
-import { goToTop } from "../Utils/goToTop";
+import { FaInstagram } from "react-icons/fa";
 
 const Body = () => {
 	useEffect(() => {
@@ -32,7 +32,11 @@ const Body = () => {
 								<a
 									href='https://www.instagram.com/viverebeneok/'
 									target='_blank'>
-									<i className='fab fa-instagram fa-3x'></i>
+									<FaInstagram
+										className='mx-2 instagram-icon'
+										size='30px'
+										
+									/>
 								</a>
 							</div>
 							<div

@@ -104,13 +104,9 @@ header {
     align-self: center;
 }
 
-#ig-main {
-    i { 
-        color:#e0f1e9;
-        padding-left: 260px;
-        padding-top: 25px;
-        text-shadow: #1c7e4d 1px 1px 4px;
-    }
+.instagram-icon {
+    color: white;
+    filter: drop-shadow(1px 1px 20px #1c7e4d);
 }
 #logo-up {
     width: 50px;

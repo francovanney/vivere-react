@@ -216,7 +216,7 @@
 		"nombre": "Combo Bubble",
 		"precio": "$2000",
 		"descripcion": "",
-		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/ImagenesProductos/combos/COMBO%20BUBBLE.jpg",
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/5d15a10cece649afae152a9ca1c36e0758ad99ec/public/ImagenesProductos/combos/comboBubble.jpg",
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
@@ -236,7 +236,7 @@
 		"nombre": "Combo Pancake",
 		"precio": "$1350",
 		"descripcion": "",
-		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/ImagenesProductos/combos/COMBO%20PANCAKE.jpg",
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/5d15a10cece649afae152a9ca1c36e0758ad99ec/public/ImagenesProductos/combos/comboPancacke.jpg",
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
@@ -246,7 +246,7 @@
 		"nombre": "Combo Sandwitch",
 		"precio": "$1200",
 		"descripcion": "",
-		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/ImagenesProductos/combos/COMBO%20SANDWITCH.jpg",
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/5d15a10cece649afae152a9ca1c36e0758ad99ec/public/ImagenesProductos/combos/comboSandwitch.jpg",
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
