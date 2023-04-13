@@ -206,7 +206,7 @@
 		"nombre": "Combo Belga",
 		"precio": "$1600",
 		"descripcion": "",
-		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/ImagenesProductos/combos/COMBO%20BELGA.jpg",
+		"urlImagen": "https://raw.githubusercontent.com/francovanney/vivere-react/c76280fe3a2a75cda51381eabd4ce5b73e8669b8/public/ImagenesProductos/combos/comboBelgaNew.jpg",
 		"categoriaImg": "https://raw.githubusercontent.com/francovanney/vivere-react/master/public/CategoriaImg/comboIcon.png"
 	},
 	{
