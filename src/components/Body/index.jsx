@@ -35,7 +35,6 @@ const Body = () => {
 									<FaInstagram
 										className='mx-2 instagram-icon'
 										size='30px'
-										
 									/>
 								</a>
 							</div>

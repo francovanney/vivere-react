@@ -1,6 +1,7 @@
 import LazyLoad from "react-lazyload";
 import { goToTop } from "../Utils/goToTop";
 import { useEffect } from "react";
+import { FaArrowCircleRight } from "react-icons/fa";
 
 const CardProducto = ({ nombreProducto, imgCategoria }) => {
 	useEffect(() => {
@@ -13,7 +14,7 @@ const CardProducto = ({ nombreProducto, imgCategoria }) => {
 			</LazyLoad>
 			<h3>{nombreProducto}</h3>
 			<button>
-				<i className='fas fa-chevron-right'>{">"}</i>
+				<FaArrowCircleRight size='20px' />
 			</button>
 		</div>
 	);

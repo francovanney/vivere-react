@@ -90,14 +90,11 @@ nav.scrolled-down img {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .toggleButton {
     display: flex;
   }
   #close a {
-    display: none;
-  }
-  #FVLogo {
     display: none;
   }
   .links {
@@ -157,7 +154,6 @@ nav.scrolled-down img {
 #logo-down {
   margin-top: 5px;
   margin-left: 5px;
-  width: 100px !important;
   cursor: pointer;
 }
 

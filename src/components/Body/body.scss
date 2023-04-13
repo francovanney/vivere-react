@@ -104,6 +104,11 @@ header {
     align-self: center;
 }
 
+#ig-main {
+    display: flex;
+    margin-inline-start: auto;
+}
+
 .instagram-icon {
     color: white;
     filter: drop-shadow(1px 1px 20px #1c7e4d);

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import { FaArrowCircleRight } from "react-icons/fa";
 
 const CardCategorias = ({ nombreCategoria, hrefCategoria, categoriaImg }) => {
 	useEffect(() => {
@@ -22,9 +23,7 @@ const CardCategorias = ({ nombreCategoria, hrefCategoria, categoriaImg }) => {
 				/>
 				<h4>{nombreCategoria}</h4>
 				<button>
-					<i className='fas fa-chevron-right'>
-						{">"}
-					</i>
+					<FaArrowCircleRight size='20px'/>
 				</button>
 			</div>
 		</Link>
