@@ -5,6 +5,7 @@ import { MediaQueries } from "../Utils/mediaqueries";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Col } from "react-bootstrap/esm";
 import { goToTop } from "../Utils/goToTop";
+import { FaArrowCircleLeft } from "react-icons/fa";
 
 const Navbar = () => {
 	const location = useLocation();
@@ -111,7 +112,7 @@ const Navbar = () => {
 								position: "absolute",
 								left: 10
 							}}>
-							{"<"}
+							<FaArrowCircleLeft size='35px' />
 						</button>
 					)}
 					<Col className='d-flex justify-content-center'>
