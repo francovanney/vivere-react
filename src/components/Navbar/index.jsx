@@ -112,7 +112,7 @@ const Navbar = () => {
 								position: "absolute",
 								left: 10
 							}}>
-							<FaArrowCircleLeft size='35px' />
+							{'<'}
 						</button>
 					)}
 					<Col className='d-flex justify-content-center'>
